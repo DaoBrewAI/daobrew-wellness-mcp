@@ -1,0 +1,43 @@
+{
+  "name": "@daobrew/wellness-mcp",
+  "version": "0.2.0",
+  "description": "Wellness MCP server — biometric stress detection & recovery for AI agents",
+  "main": "dist/src/index.js",
+  "bin": {
+    "daobrew-wellness-mcp": "dist/src/index.js",
+    "daobrew-wellness-setup": "dist/src/setup-cli.js"
+  },
+  "files": [
+    "dist/",
+    "audio/",
+    "SKILL.md",
+    "README.md",
+    "src/setup-cli.js"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "setup": "node dist/src/setup-cli.js",
+    "dev": "ts-node src/index.ts",
+    "mock": "ts-node src/index.ts --mock",
+    "postinstall": "echo '\\n  Run: npx daobrew-wellness-setup\\n  to complete DaoBrew configuration.\\n'",
+    "test": "node --test --test-force-exit --test-concurrency=1 dist/tests/mock.test.js dist/tests/preferences.test.js dist/tests/headphones.test.js dist/tests/session.test.js dist/tests/cooldown.test.js dist/tests/cache.test.js dist/tests/e2e.test.js dist/tests/audio.test.js dist/tests/guards.test.js dist/tests/client.test.js dist/tests/sync.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "wellness",
+    "health",
+    "biometrics",
+    "tcm",
+    "stress",
+    "breathing"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
