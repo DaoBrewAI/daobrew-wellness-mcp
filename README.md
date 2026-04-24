@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/b9172a4a-f8c5-439e-b0cb-21cc9e34c31d
+
 # 🍵 @daobrew/wellness-mcp
 
 **Your coding agent just learned to read your body.**
