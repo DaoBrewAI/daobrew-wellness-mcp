@@ -1,0 +1,32 @@
+name: Publish to npm
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+
+      - name: Publish
+        run: |
+          npm ci --ignore-scripts
+          LOCAL=$(node -p "require('./package.json').version")
+          if npm view "@daobrew/wellness-mcp@$LOCAL" version >/dev/null 2>&1; then
+            echo "Version $LOCAL exists — bumping patch"
+            npm version patch --no-git-tag-version
+            LOCAL=$(node -p "require('./package.json').version")
+          fi
+          echo "Publishing $LOCAL"
+          npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

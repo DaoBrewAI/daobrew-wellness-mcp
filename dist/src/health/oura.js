@@ -1,0 +1,137 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isConnected = isConnected;
+exports.loadToken = loadToken;
+exports.saveToken = saveToken;
+exports.exchangeCode = exchangeCode;
+exports.refreshAccessToken = refreshAccessToken;
+exports.fetchDailyReadiness = fetchDailyReadiness;
+exports.fetchHeartRate = fetchHeartRate;
+exports.fetchSleep = fetchSleep;
+const fs_1 = require("fs");
+const path_1 = require("path");
+const os_1 = require("os");
+const PREFS_DIR = (0, path_1.join)((0, os_1.homedir)(), ".daobrew");
+const TOKEN_FILE = (0, path_1.join)(PREFS_DIR, "oura-token.json");
+const OURA_API_BASE = "https://api.ouraring.com/v2/usercollection";
+function isConnected() {
+    return (0, fs_1.existsSync)(TOKEN_FILE);
+}
+function loadToken() {
+    if (!(0, fs_1.existsSync)(TOKEN_FILE))
+        return null;
+    try {
+        return JSON.parse((0, fs_1.readFileSync)(TOKEN_FILE, "utf-8"));
+    }
+    catch {
+        return null;
+    }
+}
+function saveToken(token) {
+    if (!(0, fs_1.existsSync)(PREFS_DIR))
+        (0, fs_1.mkdirSync)(PREFS_DIR, { recursive: true });
+    (0, fs_1.writeFileSync)(TOKEN_FILE, JSON.stringify(token, null, 2));
+}
+async function exchangeCode(code, clientId, clientSecret, redirectUri) {
+    const response = await fetch("https://api.ouraring.com/oauth/token", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+            grant_type: "authorization_code",
+            code,
+            client_id: clientId,
+            client_secret: clientSecret,
+            redirect_uri: redirectUri,
+        }),
+    });
+    if (!response.ok) {
+        throw new Error(`Oura token exchange failed: ${response.status}`);
+    }
+    const data = await response.json();
+    const token = {
+        access_token: data.access_token,
+        refresh_token: data.refresh_token,
+        expires_at: Date.now() + (data.expires_in ?? 86400) * 1000,
+        token_type: data.token_type ?? "Bearer",
+    };
+    saveToken(token);
+    return token;
+}
+async function refreshAccessToken(token) {
+    // Read from env or config file
+    let fileConfig = {};
+    const configFile = (0, path_1.join)((0, os_1.homedir)(), ".daobrew", "config.json");
+    try {
+        fileConfig = JSON.parse((0, fs_1.readFileSync)(configFile, "utf-8"));
+    }
+    catch { }
+    const clientId = process.env.DAOBREW_OURA_CLIENT_ID ?? fileConfig.oura_client_id ?? "";
+    const clientSecret = process.env.DAOBREW_OURA_CLIENT_SECRET ?? fileConfig.oura_client_secret ?? "";
+    if (!clientId || !clientSecret) {
+        throw new Error("Cannot refresh Oura token: oura_client_id/oura_client_secret not set in ~/.daobrew/config.json");
+    }
+    const response = await fetch("https://api.ouraring.com/oauth/token", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+            grant_type: "refresh_token",
+            refresh_token: token.refresh_token,
+            client_id: clientId,
+            client_secret: clientSecret,
+        }),
+    });
+    if (!response.ok) {
+        throw new Error(`Oura token refresh failed: ${response.status}`);
+    }
+    const data = await response.json();
+    const newToken = {
+        access_token: data.access_token,
+        refresh_token: data.refresh_token ?? token.refresh_token,
+        expires_at: Date.now() + (data.expires_in ?? 86400) * 1000,
+        token_type: data.token_type ?? "Bearer",
+    };
+    saveToken(newToken);
+    return newToken;
+}
+async function fetchDailyReadiness(token, startDate, endDate) {
+    const params = new URLSearchParams();
+    if (startDate)
+        params.set("start_date", startDate);
+    if (endDate)
+        params.set("end_date", endDate);
+    const qs = params.toString() ? `?${params.toString()}` : "";
+    const response = await fetch(`${OURA_API_BASE}/daily_readiness${qs}`, {
+        headers: { Authorization: `Bearer ${token.access_token}` },
+    });
+    if (!response.ok)
+        throw new Error(`Oura API error: ${response.status}`);
+    return response.json();
+}
+async function fetchHeartRate(token, startDate, endDate) {
+    const params = new URLSearchParams();
+    if (startDate)
+        params.set("start_datetime", startDate);
+    if (endDate)
+        params.set("end_datetime", endDate);
+    const qs = params.toString() ? `?${params.toString()}` : "";
+    const response = await fetch(`${OURA_API_BASE}/heartrate${qs}`, {
+        headers: { Authorization: `Bearer ${token.access_token}` },
+    });
+    if (!response.ok)
+        throw new Error(`Oura API error: ${response.status}`);
+    return response.json();
+}
+async function fetchSleep(token, startDate, endDate) {
+    const params = new URLSearchParams();
+    if (startDate)
+        params.set("start_date", startDate);
+    if (endDate)
+        params.set("end_date", endDate);
+    const qs = params.toString() ? `?${params.toString()}` : "";
+    const response = await fetch(`${OURA_API_BASE}/sleep${qs}`, {
+        headers: { Authorization: `Bearer ${token.access_token}` },
+    });
+    if (!response.ok)
+        throw new Error(`Oura API error: ${response.status}`);
+    return response.json();
+}
