@@ -1,0 +1,40 @@
+{
+  "scenario": "direct",
+  "draft": {
+    "ownerScopeDigest": "83fa6a80dac07126668f6fe2f3f4d66f4c2c3000653cd7398eccf88d177fffcc",
+    "binding": {
+      "connectionId": "google-workspace-primary",
+      "sourceKind": "gemini_meet",
+      "tenantOrWorkspaceDigest": "50e967c04dd7fa4b26b2b6a643e1089a4d5f7e4d264b9461a70a213c72b6b849",
+      "accountOrPrincipalDigest": "ec28e43990175de6616abe24efe04d65ece4186de671d6d3e8450cb8e6400172",
+      "grantVersion": "google-read-v1"
+    },
+    "documentId": "synthetic_fixture_doc_design_v1",
+    "revisionId": "synthetic_fixture_revision_design_v1",
+    "eventTime": "2026-07-28T01:30:00.000Z",
+    "contentDigest": "abd7bb47af1b09d1e1e22d009d6a94a6df257f63a459e9beb7181e366e15f3ea",
+    "quality": "structured_generated",
+    "meetingIdentity": {
+      "fingerprintVersion": "taskmap-meeting-fingerprint.1",
+      "startAt": "2026-07-28T01:30:00.000Z",
+      "endAt": "2026-07-28T02:30:00.000Z",
+      "calendarEventIdDigest": "580fbccadc293508fdf2c4bde6aeca7c6fe0c08b895e1612d5fac52c611a4917",
+      "normalizedTitleDigest": "f0dbc6e496029c1d99c15e1392f2c7a605697dcffcc5333f70a312e9a2ac59e4",
+      "participantSetDigest": "3f061ce642aedea775a7482e82db6bdf16e5db04fe16c8d515db3d0fef209410"
+    },
+    "gmailDiscoveries": [
+      {
+        "binding": {
+          "connectionId": "gmail-link-discovery",
+          "sourceKind": "gmail",
+          "tenantOrWorkspaceDigest": "c0aeb882288ea1c01cd26b960f1ba8b615e3a3cd8f227bc6f996bca8e4218192",
+          "accountOrPrincipalDigest": "bb7fbcdddedc72a85b38dcff0af25857b516a38bc8101490dae71caa4832e13d",
+          "grantVersion": "gmail-read-v1"
+        },
+        "channel": "gmail_direct",
+        "opaqueMessageId": "synthetic_gmail_direct_message_v1",
+        "resolvedDocumentUrl": "https://docs.google.com/document/d/synthetic_fixture_doc_design_v1/edit"
+      }
+    ]
+  }
+}

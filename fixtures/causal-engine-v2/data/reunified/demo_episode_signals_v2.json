@@ -1,0 +1,398 @@
+{
+ "generated_at": "2026-07-02T20:23:55.251058+00:00",
+ "substrate": "unified_v2 (deviceA/B UNION apikey), exact-deduped",
+ "method": "REAL values only; evening=18:00-23:00 PT; 14-day trailing baseline on unified_v2. HRV n small \u2014 flagged per row.",
+ "supersedes": "seed shipped June episodes as signals:[]/no_wearable_detail:true; v2 has real same-day data",
+ "episodes": {
+  "2026-05-22": {
+   "has_same_day_biometrics": true,
+   "same_day_counts": {
+    "hr": 163,
+    "hrv": 6,
+    "rhr": 3,
+    "steps_total": 8786
+   },
+   "evening_hr_n": 63,
+   "evening_hr_mean": 85.9,
+   "evening_hrv_n": 2,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-05-08",
+     "2026-05-22"
+    ],
+    "hrv_n": 31,
+    "hrv_mean": 51.3,
+    "hrv_median": 51.8,
+    "rhr_n": 16,
+    "rhr_median": 64.5,
+    "hr_n": 1904,
+    "hr_mean": 93.6,
+    "steps_days": 7,
+    "steps_median_day": 9262.0
+   },
+   "no_wearable_detail": false,
+   "hrv_power_flag": "small",
+   "signals": [
+    {
+     "metric": "HRV (HealthKit)",
+     "value": 35.1,
+     "baseline": 51.3,
+     "delta": -16.2,
+     "delta_pct": -32,
+     "unit": "ms",
+     "direction": "below",
+     "note": "evening 18-23 PT low 35.1 ms @ 20:00 PT vs 51.3 ms 14-day mean; same-day HRV n=2 (SMALL \u2014 6 full-day samples).",
+     "confidence": "small sample (HRV n<=6)"
+    },
+    {
+     "metric": "Resting HR",
+     "value": 65.0,
+     "baseline": 64.5,
+     "delta": 0.5,
+     "delta_pct": 1,
+     "unit": "bpm",
+     "direction": "steady",
+     "note": "same-day RHR median 65.0 (n=3) vs 64.5 14-day median."
+    },
+    {
+     "metric": "Evening HR",
+     "value": 85.9,
+     "baseline": 93.6,
+     "delta": -7.7,
+     "delta_pct": -8,
+     "unit": "bpm",
+     "direction": "below",
+     "note": "evening (18-23 PT) mean HR 85.9 (n=63) vs 93.6 14-day all-day mean."
+    },
+    {
+     "metric": "Activity load",
+     "value": 8786,
+     "baseline": 9262,
+     "delta": -476,
+     "delta_pct": -5,
+     "unit": "steps",
+     "direction": "below",
+     "note": "8786 steps same-day vs 9262 median tracked day (14d)."
+    }
+   ],
+   "signals_note": "Evening reading on unified_v2. Judged against 14-day trailing baseline. Correlation, not diagnosis. HRV n is small \u2014 not a clinical HRV.",
+   "confound_flags": [
+    "time-of-day: evening HR naturally differs from all-day baseline mean",
+    "RTM: episode dates chosen for narrative salience",
+    "workload confound: coding-session intensity co-moves with HR/steps"
+   ]
+  },
+  "2026-06-13": {
+   "has_same_day_biometrics": true,
+   "same_day_counts": {
+    "hr": 33,
+    "hrv": 1,
+    "rhr": 1,
+    "steps_total": 2004
+   },
+   "evening_hr_n": 33,
+   "evening_hr_mean": 117.1,
+   "evening_hrv_n": 1,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-05-30",
+     "2026-06-13"
+    ],
+    "hrv_n": 30,
+    "hrv_mean": 52.7,
+    "hrv_median": 47.9,
+    "rhr_n": 15,
+    "rhr_median": 63.0,
+    "hr_n": 1124,
+    "hr_mean": 82.0,
+    "steps_days": 9,
+    "steps_median_day": 4473.0
+   },
+   "no_wearable_detail": false,
+   "hrv_power_flag": "THIN",
+   "signals": [
+    {
+     "metric": "HRV (HealthKit)",
+     "value": 16.6,
+     "baseline": 52.7,
+     "delta": -36.1,
+     "delta_pct": -69,
+     "unit": "ms",
+     "direction": "below",
+     "note": "evening 18-23 PT low 16.6 ms @ 19:19 PT vs 52.7 ms 14-day mean; same-day HRV n=1 (SMALL \u2014 1 full-day samples).",
+     "confidence": "small sample (HRV n<=6)"
+    },
+    {
+     "metric": "Resting HR",
+     "value": 98.0,
+     "baseline": 63.0,
+     "delta": 35.0,
+     "delta_pct": 56,
+     "unit": "bpm",
+     "direction": "above",
+     "note": "same-day RHR median 98.0 (n=1) vs 63.0 14-day median."
+    },
+    {
+     "metric": "Evening HR",
+     "value": 117.1,
+     "baseline": 82.0,
+     "delta": 35.1,
+     "delta_pct": 43,
+     "unit": "bpm",
+     "direction": "above",
+     "note": "evening (18-23 PT) mean HR 117.1 (n=33) vs 82.0 14-day all-day mean."
+    },
+    {
+     "metric": "Activity load",
+     "value": 2004,
+     "baseline": 4473,
+     "delta": -2469,
+     "delta_pct": -55,
+     "unit": "steps",
+     "direction": "below",
+     "note": "2004 steps same-day vs 4473 median tracked day (14d)."
+    }
+   ],
+   "signals_note": "Evening reading on unified_v2. Judged against 14-day trailing baseline. Correlation, not diagnosis. HRV n is small \u2014 not a clinical HRV.",
+   "confound_flags": [
+    "time-of-day: evening HR naturally differs from all-day baseline mean",
+    "RTM: episode dates chosen for narrative salience",
+    "workload confound: coding-session intensity co-moves with HR/steps"
+   ]
+  },
+  "2026-06-14": {
+   "has_same_day_biometrics": true,
+   "same_day_counts": {
+    "hr": 70,
+    "hrv": 4,
+    "rhr": 1,
+    "steps_total": 4441
+   },
+   "evening_hr_n": 3,
+   "evening_hr_mean": 78.7,
+   "evening_hrv_n": 0,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-05-31",
+     "2026-06-14"
+    ],
+    "hrv_n": 28,
+    "hrv_mean": 52.7,
+    "hrv_median": 47.8,
+    "rhr_n": 14,
+    "rhr_median": 63.0,
+    "hr_n": 1088,
+    "hr_mean": 82.9,
+    "steps_days": 9,
+    "steps_median_day": 4473.0
+   },
+   "no_wearable_detail": false,
+   "hrv_power_flag": "small",
+   "signals": [
+    {
+     "metric": "HRV (HealthKit)",
+     "value": 12.5,
+     "baseline": 52.7,
+     "delta": -40.2,
+     "delta_pct": -76,
+     "unit": "ms",
+     "direction": "below",
+     "note": "full-day (no evening HRV sample) low 12.5 ms @ 09:37 PT vs 52.7 ms 14-day mean; same-day HRV n=4 (SMALL \u2014 4 full-day samples).",
+     "confidence": "small sample (HRV n<=6)"
+    },
+    {
+     "metric": "Resting HR",
+     "value": 67.0,
+     "baseline": 63.0,
+     "delta": 4.0,
+     "delta_pct": 6,
+     "unit": "bpm",
+     "direction": "above",
+     "note": "same-day RHR median 67.0 (n=1) vs 63.0 14-day median."
+    },
+    {
+     "metric": "Evening HR",
+     "value": 78.7,
+     "baseline": 82.9,
+     "delta": -4.2,
+     "delta_pct": -5,
+     "unit": "bpm",
+     "direction": "below",
+     "note": "evening (18-23 PT) mean HR 78.7 (n=3) vs 82.9 14-day all-day mean."
+    },
+    {
+     "metric": "Activity load",
+     "value": 4441,
+     "baseline": 4473,
+     "delta": -32,
+     "delta_pct": -1,
+     "unit": "steps",
+     "direction": "below",
+     "note": "4441 steps same-day vs 4473 median tracked day (14d)."
+    }
+   ],
+   "signals_note": "Evening reading on unified_v2. Judged against 14-day trailing baseline. Correlation, not diagnosis. HRV n is small \u2014 not a clinical HRV.",
+   "confound_flags": [
+    "time-of-day: evening HR naturally differs from all-day baseline mean",
+    "RTM: episode dates chosen for narrative salience",
+    "workload confound: coding-session intensity co-moves with HR/steps"
+   ]
+  },
+  "2026-06-26": {
+   "has_same_day_biometrics": true,
+   "same_day_counts": {
+    "hr": 146,
+    "hrv": 4,
+    "rhr": 2,
+    "steps_total": 11650
+   },
+   "evening_hr_n": 77,
+   "evening_hr_mean": 82.5,
+   "evening_hrv_n": 2,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-06-12",
+     "2026-06-26"
+    ],
+    "hrv_n": 43,
+    "hrv_mean": 49.7,
+    "hrv_median": 48.0,
+    "rhr_n": 17,
+    "rhr_median": 66.0,
+    "hr_n": 1534,
+    "hr_mean": 89.1,
+    "steps_days": 10,
+    "steps_median_day": 5839.0
+   },
+   "no_wearable_detail": false,
+   "hrv_power_flag": "small",
+   "signals": [
+    {
+     "metric": "HRV (HealthKit)",
+     "value": 48.5,
+     "baseline": 49.7,
+     "delta": -1.2,
+     "delta_pct": -2,
+     "unit": "ms",
+     "direction": "below",
+     "note": "evening 18-23 PT low 48.5 ms @ 18:23 PT vs 49.7 ms 14-day mean; same-day HRV n=2 (SMALL \u2014 4 full-day samples).",
+     "confidence": "small sample (HRV n<=6)"
+    },
+    {
+     "metric": "Resting HR",
+     "value": 66.5,
+     "baseline": 66.0,
+     "delta": 0.5,
+     "delta_pct": 1,
+     "unit": "bpm",
+     "direction": "steady",
+     "note": "same-day RHR median 66.5 (n=2) vs 66.0 14-day median."
+    },
+    {
+     "metric": "Evening HR",
+     "value": 82.5,
+     "baseline": 89.1,
+     "delta": -6.6,
+     "delta_pct": -7,
+     "unit": "bpm",
+     "direction": "below",
+     "note": "evening (18-23 PT) mean HR 82.5 (n=77) vs 89.1 14-day all-day mean."
+    },
+    {
+     "metric": "Activity load",
+     "value": 11650,
+     "baseline": 5839,
+     "delta": 5811,
+     "delta_pct": 100,
+     "unit": "steps",
+     "direction": "above",
+     "note": "11650 steps same-day vs 5839 median tracked day (14d)."
+    }
+   ],
+   "signals_note": "Evening reading on unified_v2. Judged against 14-day trailing baseline. Correlation, not diagnosis. HRV n is small \u2014 not a clinical HRV.",
+   "confound_flags": [
+    "time-of-day: evening HR naturally differs from all-day baseline mean",
+    "RTM: episode dates chosen for narrative salience",
+    "workload confound: coding-session intensity co-moves with HR/steps"
+   ]
+  },
+  "2026-06-27": {
+   "has_same_day_biometrics": true,
+   "same_day_counts": {
+    "hr": 237,
+    "hrv": 3,
+    "rhr": 2,
+    "steps_total": 6362
+   },
+   "evening_hr_n": 18,
+   "evening_hr_mean": 73.4,
+   "evening_hrv_n": 0,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-06-13",
+     "2026-06-27"
+    ],
+    "hrv_n": 43,
+    "hrv_mean": 49.9,
+    "hrv_median": 48.0,
+    "rhr_n": 16,
+    "rhr_median": 66.0,
+    "hr_n": 1557,
+    "hr_mean": 89.7,
+    "steps_days": 10,
+    "steps_median_day": 5839.0
+   },
+   "no_wearable_detail": false,
+   "hrv_power_flag": "THIN",
+   "signals": [
+    {
+     "metric": "HRV (HealthKit)",
+     "value": 37.0,
+     "baseline": 49.9,
+     "delta": -12.9,
+     "delta_pct": -26,
+     "unit": "ms",
+     "direction": "below",
+     "note": "full-day (no evening HRV sample) low 37.0 ms @ 08:03 PT vs 49.9 ms 14-day mean; same-day HRV n=3 (SMALL \u2014 3 full-day samples).",
+     "confidence": "small sample (HRV n<=6)"
+    },
+    {
+     "metric": "Resting HR",
+     "value": 63.5,
+     "baseline": 66.0,
+     "delta": -2.5,
+     "delta_pct": -4,
+     "unit": "bpm",
+     "direction": "steady",
+     "note": "same-day RHR median 63.5 (n=2) vs 66.0 14-day median."
+    },
+    {
+     "metric": "Evening HR",
+     "value": 73.4,
+     "baseline": 89.7,
+     "delta": -16.3,
+     "delta_pct": -18,
+     "unit": "bpm",
+     "direction": "below",
+     "note": "evening (18-23 PT) mean HR 73.4 (n=18) vs 89.7 14-day all-day mean."
+    },
+    {
+     "metric": "Activity load",
+     "value": 6362,
+     "baseline": 5839,
+     "delta": 523,
+     "delta_pct": 9,
+     "unit": "steps",
+     "direction": "above",
+     "note": "6362 steps same-day vs 5839 median tracked day (14d)."
+    }
+   ],
+   "signals_note": "Evening reading on unified_v2. Judged against 14-day trailing baseline. Correlation, not diagnosis. HRV n is small \u2014 not a clinical HRV.",
+   "confound_flags": [
+    "time-of-day: evening HR naturally differs from all-day baseline mean",
+    "RTM: episode dates chosen for narrative salience",
+    "workload confound: coding-session intensity co-moves with HR/steps"
+   ]
+  }
+ }
+}

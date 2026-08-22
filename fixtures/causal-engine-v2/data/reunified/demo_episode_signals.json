@@ -1,0 +1,347 @@
+{
+ "generated_at": "2026-07-02T19:06:32.375685+00:00",
+ "substrate": "reunified deviceA\u222adeviceB, exact-deduped (unified_samples.json)",
+ "method": "REAL values only; evening=18:00-23:00 PT; 14-day trailing baseline on unified data",
+ "episodes": {
+  "2026-05-22": {
+   "same_day_samples": {
+    "heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "heart_rate_variability": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "step_count": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    }
+   },
+   "has_same_day_biometrics": false,
+   "evening_hr_18_23_n": 0,
+   "evening_hr_mean": null,
+   "nearest_real_hr_day_before": "2026-05-19",
+   "nearest_real_hr_gap_days": 3,
+   "nearest_real_hrv_day_before": "2026-05-19",
+   "nearest_real_hrv_gap_days": 3,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-05-08",
+     "2026-05-22"
+    ],
+    "hrv_n": 18,
+    "hrv_mean": 49.4,
+    "hrv_median": 51.6,
+    "rhr_n": 9,
+    "rhr_median": 66.0,
+    "steps_days": 4,
+    "steps_median_day": 9967.0,
+    "hr_n": 1345
+   },
+   "no_wearable_detail": true,
+   "signals": [
+    {
+     "metric": "HRV (HealthKit)",
+     "value": 20.8,
+     "baseline": 49.4,
+     "delta": -28.6,
+     "delta_pct": -58,
+     "unit": "ms",
+     "direction": "below",
+     "confidence": "small sample",
+     "note": "evening low 20.8 ms on 2026-05-19 20:00 PT vs 49.4 ms 14-day mean (deduped, n=18); window min 17.743123954131946 ms @ 2026-05-18 09:10",
+     "provenance": "borrowed from May 18-19 sprint window; 5/22 itself has ZERO same-day samples; CONFIRMS seed HRV low 20.8 evening reading"
+    },
+    {
+     "metric": "Resting HR",
+     "value": 65.0,
+     "baseline": 66.0,
+     "delta": -1.0,
+     "delta_pct": -2,
+     "unit": "bpm",
+     "direction": "steady",
+     "note": "sprint-window RHR median 65.0 vs 14d median 66.0 \u2014 in range",
+     "provenance": "May 18-19 window"
+    },
+    {
+     "metric": "Activity load",
+     "value": 15135,
+     "baseline": 9967,
+     "delta": 5168,
+     "delta_pct": 52,
+     "unit": "steps",
+     "direction": "above",
+     "confidence": "small sample",
+     "note": "DEDUPED 15135 steps on May 19 (summit) vs 9967 median tracked day. SEED SHOWS 26054 \u2014 inflated by 37 exact re-ingestion dup rows; honest deduped value is 15135.",
+     "provenance": "May 19; CORRECTS seed activity_load 26054->15135"
+    }
+   ],
+   "signals_note": "Borrowed from May 18-19 sprint window (5/22 has no same-day data). Judged against deduped 14-day baseline. Correlation, not diagnosis.",
+   "seed_vs_honest": {
+    "seed_steps_summit": 26054,
+    "honest_deduped_steps_summit": 15135,
+    "seed_hrv_low_evening": 20.8,
+    "honest_hrv_low_evening": 20.8,
+    "hrv_evening_verdict": "CONFIRMED",
+    "hrv_window_min": 17.743123954131946,
+    "hrv_window_min_when": "2026-05-18 09:10",
+    "seed_hrv_baseline": 49.2,
+    "honest_hrv_baseline_14d_mean": 49.4,
+    "hrv_baseline_verdict": "CONFIRMED",
+    "seed_rhr_range": "64-68",
+    "honest_rhr_sprint_median": 65.0,
+    "rhr_verdict": "CONFIRMED",
+    "steps_verdict": "CORRECTION: seed 26054 -> honest 15135 (re-ingestion dedupe)"
+   }
+  },
+  "2026-06-13": {
+   "same_day_samples": {
+    "heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "heart_rate_variability": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "step_count": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    }
+   },
+   "has_same_day_biometrics": false,
+   "evening_hr_18_23_n": 0,
+   "evening_hr_mean": null,
+   "nearest_real_hr_day_before": "2026-05-19",
+   "nearest_real_hr_gap_days": 25,
+   "nearest_real_hrv_day_before": "2026-05-19",
+   "nearest_real_hrv_gap_days": 25,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-05-30",
+     "2026-06-13"
+    ],
+    "hrv_n": 0,
+    "hrv_mean": null,
+    "hrv_median": null,
+    "rhr_n": 0,
+    "rhr_median": null,
+    "steps_days": 0,
+    "steps_median_day": null,
+    "hr_n": 0
+   },
+   "no_wearable_detail": true,
+   "signals": []
+  },
+  "2026-06-14": {
+   "same_day_samples": {
+    "heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "heart_rate_variability": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "step_count": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    }
+   },
+   "has_same_day_biometrics": false,
+   "evening_hr_18_23_n": 0,
+   "evening_hr_mean": null,
+   "nearest_real_hr_day_before": "2026-05-19",
+   "nearest_real_hr_gap_days": 26,
+   "nearest_real_hrv_day_before": "2026-05-19",
+   "nearest_real_hrv_gap_days": 26,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-05-31",
+     "2026-06-14"
+    ],
+    "hrv_n": 0,
+    "hrv_mean": null,
+    "hrv_median": null,
+    "rhr_n": 0,
+    "rhr_median": null,
+    "steps_days": 0,
+    "steps_median_day": null,
+    "hr_n": 0
+   },
+   "no_wearable_detail": true,
+   "signals": []
+  },
+  "2026-06-26": {
+   "same_day_samples": {
+    "heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "heart_rate_variability": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "step_count": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    }
+   },
+   "has_same_day_biometrics": false,
+   "evening_hr_18_23_n": 0,
+   "evening_hr_mean": null,
+   "nearest_real_hr_day_before": "2026-06-22",
+   "nearest_real_hr_gap_days": 4,
+   "nearest_real_hrv_day_before": "2026-06-22",
+   "nearest_real_hrv_gap_days": 4,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-06-12",
+     "2026-06-26"
+    ],
+    "hrv_n": 2,
+    "hrv_mean": 59.6,
+    "hrv_median": 59.6,
+    "rhr_n": 1,
+    "rhr_median": 66.0,
+    "steps_days": 1,
+    "steps_median_day": 2335.0,
+    "hr_n": 183
+   },
+   "no_wearable_detail": true,
+   "signals": []
+  },
+  "2026-06-27": {
+   "same_day_samples": {
+    "heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "heart_rate_variability": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "step_count": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "values": [],
+     "sources": []
+    }
+   },
+   "has_same_day_biometrics": false,
+   "evening_hr_18_23_n": 0,
+   "evening_hr_mean": null,
+   "nearest_real_hr_day_before": "2026-06-22",
+   "nearest_real_hr_gap_days": 5,
+   "nearest_real_hrv_day_before": "2026-06-22",
+   "nearest_real_hrv_gap_days": 5,
+   "baseline_14d_trailing": {
+    "window": [
+     "2026-06-13",
+     "2026-06-27"
+    ],
+    "hrv_n": 2,
+    "hrv_mean": 59.6,
+    "hrv_median": 59.6,
+    "rhr_n": 1,
+    "rhr_median": 66.0,
+    "steps_days": 1,
+    "steps_median_day": 2335.0,
+    "hr_n": 183
+   },
+   "no_wearable_detail": true,
+   "signals": []
+  }
+ },
+ "s518_deduped_steps": 11491,
+ "s519_deduped_steps": 15135
+}

@@ -1,0 +1,832 @@
+{
+  "contractVersion": "taskmap-truth-set-draft.v1",
+  "splitPolicyVersion": "taskmap-truth-time-splits.1",
+  "splitBoundaries": [
+    {
+      "timeSplit": "T0",
+      "startAt": "2026-07-26T00:00:00.000-07:00",
+      "endAt": "2026-07-27T00:00:00.000-07:00",
+      "semantics": "inclusive_start_exclusive_end"
+    },
+    {
+      "timeSplit": "T1",
+      "startAt": "2026-07-27T00:00:00.000-07:00",
+      "endAt": "2026-07-27T12:00:00.000-07:00",
+      "semantics": "inclusive_start_exclusive_end"
+    },
+    {
+      "timeSplit": "T2",
+      "startAt": "2026-07-27T12:00:00.000-07:00",
+      "endAt": "2026-07-27T17:00:00.000-07:00",
+      "semantics": "inclusive_start_exclusive_end"
+    },
+    {
+      "timeSplit": "T3",
+      "startAt": "2026-07-27T17:00:00.000-07:00",
+      "endAt": "2026-07-27T19:00:00.000-07:00",
+      "semantics": "inclusive_start_exclusive_end"
+    },
+    {
+      "timeSplit": "T4",
+      "startAt": "2026-07-27T19:00:00.000-07:00",
+      "endAt": "2026-07-27T21:21:31.000-07:00",
+      "semantics": "inclusive_start_exclusive_end"
+    }
+  ],
+  "asOf": "2026-07-27T21:21:31.000-07:00",
+  "reviewedAt": "2026-07-27T21:21:40.000-07:00",
+  "labels": [
+    {
+      "caseKey": "strategy_taskmap_open",
+      "subject": "Task Map productization remains open",
+      "timeSplit": "T0",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.taskmap.open.v1",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "accepted_work",
+      "lifecycle": "open",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 1,
+      "reasonCodes": [
+        "source_native_open_work"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "strategy_fundraising_open",
+      "subject": "Fundraising and product proof remain open",
+      "timeSplit": "T0",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.fundraising.open.v1",
+      "canonicalWorkRef": "synthetic:work.fundraising.product-proof",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "accepted_work",
+      "lifecycle": "open",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 1,
+      "reasonCodes": [
+        "source_native_open_work"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "strategy_ios_approval_blocked",
+      "subject": "Apply the accepted iOS approval projection",
+      "timeSplit": "T0",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.ios-approval.blocked.v1",
+      "canonicalWorkRef": "synthetic:work.ios-design-system-approval",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "accepted_work",
+      "lifecycle": "blocked",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 1,
+      "reasonCodes": [
+        "source_native_blocked_work"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "strategy_central_truth_context",
+      "subject": "Keep one central ground truth",
+      "timeSplit": "T0",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.central-truth.context.v1",
+      "canonicalWorkRef": "synthetic:context.central-ground-truth",
+      "workClass": "context_only",
+      "evidenceRole": "primary_authority",
+      "adjudication": "context_only",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "strategy_durable_context",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "strategy_durable_context"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "strategy_personas_context",
+      "subject": "Founders builders and executives are target personas",
+      "timeSplit": "T0",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.personas.context.v1",
+      "canonicalWorkRef": "synthetic:context.target-personas",
+      "workClass": "context_only",
+      "evidenceRole": "primary_authority",
+      "adjudication": "context_only",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "strategy_durable_context",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "strategy_durable_context"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "strategy_admin_plane_context",
+      "subject": "A later admin plane remains product context",
+      "timeSplit": "T0",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.admin-plane.context.v1",
+      "canonicalWorkRef": "synthetic:context.later-admin-plane",
+      "workClass": "context_only",
+      "evidenceRole": "primary_authority",
+      "adjudication": "context_only",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "strategy_durable_context",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "strategy_durable_context"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "p7_founder_gate_superseded",
+      "subject": "P7.0c3 founder gate is superseded",
+      "timeSplit": "T0",
+      "sourceKind": "manual",
+      "sourceRecordRef": "synthetic:loop.p7-founder-gate.superseded.v1",
+      "canonicalWorkRef": "synthetic:work.p7-founder-gate",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "accepted_work",
+      "lifecycle": "superseded",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "superseded_terminal"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "weekly_gemini_corroboration",
+      "subject": "Weekly Gemini corroborates existing Task Map work",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.variant.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "workClass": "explicit_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "merge_into_existing",
+      "lifecycle": "open",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "merge_existing_work",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "no_automatic_task_acceptance",
+        "no_bounded_calendar_anchor",
+        "provider_corroborates_existing"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "weekly_gmail_forwarded_discovery",
+      "subject": "Forwarded Gmail discovers the weekly Gemini document",
+      "timeSplit": "T1",
+      "sourceKind": "gmail",
+      "sourceRecordRef": "synthetic:gmail.weekly.forwarded.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "discoveryChannel": "gmail_forwarded",
+      "workClass": "context_only",
+      "evidenceRole": "discovery_pointer",
+      "adjudication": "exclude_duplicate",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "gmail_discovery_semantically_neutral",
+        "no_bounded_calendar_anchor"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "weekly_pollution_jtc",
+      "subject": "JTC",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.pollution-jtc.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "workClass": "non_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "asr_pollution"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "weekly_pollution_contact_party",
+      "subject": "Contact Party",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.pollution-contact-party.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "workClass": "non_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "asr_pollution"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "weekly_pollution_spin_up_mission",
+      "subject": "Spin up mission",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.pollution-spin-up-mission.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "workClass": "non_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "asr_pollution"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "weekly_pollution_connect_background",
+      "subject": "Connect Background",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.pollution-connect-background.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "workClass": "non_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "asr_pollution"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "weekly_pollution_valencia",
+      "subject": "Valencia",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.pollution-valencia.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "workClass": "non_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "asr_pollution"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "weekly_pollution_numeric_100",
+      "subject": "100",
+      "timeSplit": "T1",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.weekly.pollution-numeric-100.v1",
+      "canonicalEventRef": "synthetic:event.weekly-sync-2026-07-27",
+      "workClass": "non_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "numeric_asr_pollution"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "p8_real_data_acceptance_completed",
+      "subject": "P8 real-data acceptance is completed",
+      "timeSplit": "T2",
+      "sourceKind": "manual",
+      "sourceRecordRef": "synthetic:loop.p8-real-data.completed.v1",
+      "canonicalWorkRef": "synthetic:work.p8-real-data-acceptance",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "accepted_work",
+      "lifecycle": "completed",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "source_completion_terminal"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "design_calendar_identity_anchor",
+      "subject": "Calendar anchors the design meeting identity",
+      "timeSplit": "T3",
+      "sourceKind": "google_calendar",
+      "sourceRecordRef": "synthetic:calendar.design.anchor.v1",
+      "canonicalEventRef": "synthetic:event.design-sync-2026-07-27",
+      "workClass": "context_only",
+      "evidenceRole": "identity_anchor",
+      "adjudication": "context_only",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "calendar_identity_anchor"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "design_gemini_primary_variant",
+      "subject": "Gemini is the primary structured design meeting variant",
+      "timeSplit": "T3",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.design.primary.v1",
+      "canonicalEventRef": "synthetic:event.design-sync-2026-07-27",
+      "workClass": "context_only",
+      "evidenceRole": "primary_authority",
+      "adjudication": "context_only",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 1,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "meeting_recurrence_counted_once",
+        "structured_meeting_primary"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "design_granola_degraded_duplicate",
+      "subject": "Granola is degraded corroboration of the design meeting",
+      "timeSplit": "T3",
+      "sourceKind": "granola",
+      "sourceRecordRef": "synthetic:granola.design.degraded.v1",
+      "canonicalEventRef": "synthetic:event.design-sync-2026-07-27",
+      "workClass": "context_only",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "exclude_duplicate",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "provider_variant_deduped"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "design_gmail_direct_discovery",
+      "subject": "Direct Gmail discovers the design Gemini document",
+      "timeSplit": "T3",
+      "sourceKind": "gmail",
+      "sourceRecordRef": "synthetic:gmail.design.direct.v1",
+      "canonicalEventRef": "synthetic:event.design-sync-2026-07-27",
+      "discoveryChannel": "gmail_direct",
+      "workClass": "context_only",
+      "evidenceRole": "discovery_pointer",
+      "adjudication": "exclude_duplicate",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "gmail_discovery_semantically_neutral"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "design_system_update_merge",
+      "subject": "Update Design System",
+      "timeSplit": "T3",
+      "sourceKind": "gemini_meet",
+      "sourceRecordRef": "synthetic:gemini.design.update-system.v1",
+      "canonicalEventRef": "synthetic:event.design-sync-2026-07-27",
+      "canonicalWorkRef": "synthetic:work.ios-design-system-approval",
+      "workClass": "inferred_candidate",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "merge_into_existing",
+      "lifecycle": "blocked",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "merge_existing_work",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "existing_work_match",
+        "no_automatic_task_acceptance",
+        "strategy_reviewed_existing_work_merge"
+      ],
+      "labelAuthority": "reviewed_truth"
+    },
+    {
+      "caseKey": "design_dri_checkpoint_candidate",
+      "subject": "Confirm design DRI and next review checkpoint",
+      "timeSplit": "T3",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.design.dri-checkpoint-blocker.v1",
+      "canonicalWorkRef": "synthetic:work.design-dri-checkpoint-candidate",
+      "workClass": "inferred_candidate",
+      "evidenceRole": "primary_authority",
+      "adjudication": "candidate_review",
+      "lifecycle": "awaiting_review",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "taskmap_candidate_review"
+      },
+      "expectedDelta": "new_candidate",
+      "recurrenceContribution": 0,
+      "membershipContribution": 1,
+      "reasonCodes": [
+        "owner_missing_candidate_review",
+        "strategy_blocker_candidate_review"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "codex_root_continues_taskmap",
+      "subject": "New Codex root continues Task Map productization",
+      "timeSplit": "T4",
+      "sourceKind": "codex_session",
+      "sourceRecordRef": "synthetic:codex.root.taskmap-continuation.v1",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "sessionRole": "root",
+      "workClass": "explicit_work",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "merge_into_existing",
+      "lifecycle": "open",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "merge_existing_work",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "no_automatic_task_acceptance",
+        "session_continues_existing_root"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "codex_subagent_truthset_delegated",
+      "subject": "Truth-set preparation subagent is delegated execution",
+      "timeSplit": "T4",
+      "sourceKind": "codex_session",
+      "sourceRecordRef": "synthetic:codex.subagent.truthset-prep.v1",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "sessionRole": "subagent",
+      "workClass": "context_only",
+      "evidenceRole": "delegated_execution",
+      "adjudication": "exclude_duplicate",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "delegated_subagent_not_independent_work"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "codex_subagent_swift_delegated",
+      "subject": "SwiftUI subagent is delegated execution",
+      "timeSplit": "T4",
+      "sourceKind": "codex_session",
+      "sourceRecordRef": "synthetic:codex.subagent.swift-overflow.v1",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "sessionRole": "subagent",
+      "workClass": "context_only",
+      "evidenceRole": "delegated_execution",
+      "adjudication": "exclude_duplicate",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "delegated_subagent_not_independent_work"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "codex_wrapper_rejected",
+      "subject": "Delegation wrapper is not work",
+      "timeSplit": "T4",
+      "sourceKind": "codex_session",
+      "sourceRecordRef": "synthetic:codex.wrapper.delegation.v1",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "sessionRole": "wrapper",
+      "workClass": "non_work",
+      "evidenceRole": "delegated_execution",
+      "adjudication": "reject_pollution",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "wrapper_not_work"
+      ],
+      "labelAuthority": "deterministic_policy"
+    },
+    {
+      "caseKey": "strategy_ios_existing_update",
+      "subject": "iOS approval projection updates the existing blocked task",
+      "timeSplit": "T4",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.ios-approval.update.v2",
+      "canonicalWorkRef": "synthetic:work.ios-design-system-approval",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "accepted_work",
+      "lifecycle": "blocked",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "update_existing_work",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "existing_work_updated",
+        "strategy_source_authority"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "strategy_taskmap_commit_merge",
+      "subject": "Strategy commit corroborates existing Task Map work",
+      "timeSplit": "T4",
+      "sourceKind": "strategy",
+      "sourceRecordRef": "synthetic:strategy.taskmap.commit.v2",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "workClass": "explicit_work",
+      "evidenceRole": "primary_authority",
+      "adjudication": "merge_into_existing",
+      "lifecycle": "open",
+      "expectedProjection": {
+        "strategy": "shared_accepted_work",
+        "taskMap": "shared_accepted_work"
+      },
+      "expectedDelta": "merge_existing_work",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "provider_corroborates_existing",
+        "strategy_source_authority"
+      ],
+      "labelAuthority": "source_authority"
+    },
+    {
+      "caseKey": "oura_context_membership_neutral",
+      "subject": "Oura is context and body bonus only",
+      "timeSplit": "T4",
+      "sourceKind": "oura",
+      "sourceRecordRef": "synthetic:oura.relative-context.v1",
+      "canonicalWorkRef": "synthetic:work.taskmap.productization",
+      "workClass": "context_only",
+      "evidenceRole": "corroborating_variant",
+      "adjudication": "context_only",
+      "lifecycle": "unknown",
+      "expectedProjection": {
+        "strategy": "excluded",
+        "taskMap": "excluded"
+      },
+      "expectedDelta": "none",
+      "recurrenceContribution": 0,
+      "membershipContribution": 0,
+      "reasonCodes": [
+        "body_context_post_membership_only"
+      ],
+      "labelAuthority": "deterministic_policy"
+    }
+  ],
+  "expectedSplitMetrics": [
+    {
+      "timeSplit": "T0",
+      "metrics": {
+        "labelCount": 7,
+        "canonicalMeetingCount": 0,
+        "newRootCount": 0,
+        "newAcceptedWorkCount": 0,
+        "updatedExistingWorkCount": 0,
+        "candidateReviewCount": 0,
+        "automaticAcceptedFromMeetingOrSessionCount": 0,
+        "recurrenceContribution": 0,
+        "membershipContribution": 3,
+        "mergeIntoExistingCount": 0,
+        "duplicateExclusionCount": 0,
+        "pollutionRejectionCount": 0,
+        "falseReopenCount": 0
+      }
+    },
+    {
+      "timeSplit": "T1",
+      "metrics": {
+        "labelCount": 8,
+        "canonicalMeetingCount": 1,
+        "newRootCount": 0,
+        "newAcceptedWorkCount": 0,
+        "updatedExistingWorkCount": 0,
+        "candidateReviewCount": 0,
+        "automaticAcceptedFromMeetingOrSessionCount": 0,
+        "recurrenceContribution": 0,
+        "membershipContribution": 0,
+        "mergeIntoExistingCount": 1,
+        "duplicateExclusionCount": 1,
+        "pollutionRejectionCount": 6,
+        "falseReopenCount": 0
+      }
+    },
+    {
+      "timeSplit": "T2",
+      "metrics": {
+        "labelCount": 1,
+        "canonicalMeetingCount": 0,
+        "newRootCount": 0,
+        "newAcceptedWorkCount": 0,
+        "updatedExistingWorkCount": 0,
+        "candidateReviewCount": 0,
+        "automaticAcceptedFromMeetingOrSessionCount": 0,
+        "recurrenceContribution": 0,
+        "membershipContribution": 0,
+        "mergeIntoExistingCount": 0,
+        "duplicateExclusionCount": 0,
+        "pollutionRejectionCount": 0,
+        "falseReopenCount": 0
+      }
+    },
+    {
+      "timeSplit": "T3",
+      "metrics": {
+        "labelCount": 6,
+        "canonicalMeetingCount": 1,
+        "newRootCount": 0,
+        "newAcceptedWorkCount": 0,
+        "updatedExistingWorkCount": 0,
+        "candidateReviewCount": 1,
+        "automaticAcceptedFromMeetingOrSessionCount": 0,
+        "recurrenceContribution": 1,
+        "membershipContribution": 1,
+        "mergeIntoExistingCount": 1,
+        "duplicateExclusionCount": 2,
+        "pollutionRejectionCount": 0,
+        "falseReopenCount": 0
+      }
+    },
+    {
+      "timeSplit": "T4",
+      "metrics": {
+        "labelCount": 7,
+        "canonicalMeetingCount": 0,
+        "newRootCount": 0,
+        "newAcceptedWorkCount": 0,
+        "updatedExistingWorkCount": 1,
+        "candidateReviewCount": 0,
+        "automaticAcceptedFromMeetingOrSessionCount": 0,
+        "recurrenceContribution": 0,
+        "membershipContribution": 0,
+        "mergeIntoExistingCount": 2,
+        "duplicateExclusionCount": 2,
+        "pollutionRejectionCount": 1,
+        "falseReopenCount": 0
+      }
+    }
+  ],
+  "expectedOverallMetrics": {
+    "labelCount": 29,
+    "canonicalMeetingCount": 2,
+    "newRootCount": 0,
+    "newAcceptedWorkCount": 0,
+    "updatedExistingWorkCount": 1,
+    "candidateReviewCount": 1,
+    "automaticAcceptedFromMeetingOrSessionCount": 0,
+    "recurrenceContribution": 1,
+    "membershipContribution": 4,
+    "mergeIntoExistingCount": 4,
+    "duplicateExclusionCount": 5,
+    "pollutionRejectionCount": 7,
+    "falseReopenCount": 0
+  }
+}

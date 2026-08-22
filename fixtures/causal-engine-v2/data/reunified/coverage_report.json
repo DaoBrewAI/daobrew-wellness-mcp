@@ -1,0 +1,590 @@
+{
+ "generated_at": "2026-07-02T18:50:53.273604+00:00",
+ "dedupe_stats": {
+  "heart_rate": {
+   "raw_rows": 5842,
+   "unified": 5379,
+   "exact_dups_removed": 463,
+   "cross_device_dups": 0,
+   "by_source_raw": {
+    "deviceA": 5642,
+    "deviceB": 200
+   }
+  },
+  "heart_rate_variability": {
+   "raw_rows": 88,
+   "unified": 78,
+   "exact_dups_removed": 10,
+   "cross_device_dups": 2,
+   "by_source_raw": {
+    "deviceA": 77,
+    "deviceB": 11
+   }
+  },
+  "resting_heart_rate": {
+   "raw_rows": 36,
+   "unified": 30,
+   "exact_dups_removed": 6,
+   "cross_device_dups": 0,
+   "by_source_raw": {
+    "deviceA": 36
+   }
+  },
+  "respiratory_rate": {
+   "raw_rows": 3,
+   "unified": 3,
+   "exact_dups_removed": 0,
+   "cross_device_dups": 0,
+   "by_source_raw": {
+    "deviceA": 3
+   }
+  },
+  "step_count": {
+   "raw_rows": 1515,
+   "unified": 1411,
+   "exact_dups_removed": 104,
+   "cross_device_dups": 34,
+   "by_source_raw": {
+    "deviceA": 1374,
+    "deviceB": 141
+   }
+  },
+  "active_energy_burned": {
+   "raw_rows": 9774,
+   "unified": 8672,
+   "exact_dups_removed": 1102,
+   "cross_device_dups": 0,
+   "by_source_raw": {
+    "deviceA": 9774
+   }
+  }
+ },
+ "per_metric_first_last": {
+  "heart_rate": {
+   "first_utc": "2026-03-18T19:24:13+00:00",
+   "last_utc": "2026-06-23T01:39:07+00:00",
+   "first_pt": "2026-03-18 12:24 PDT",
+   "last_pt": "2026-06-22 18:39 PDT",
+   "first_pt_date": "2026-03-18",
+   "last_pt_date": "2026-06-22"
+  },
+  "heart_rate_variability": {
+   "first_utc": "2026-03-18T20:21:05+00:00",
+   "last_utc": "2026-06-23T00:35:52+00:00",
+   "first_pt": "2026-03-18 13:21 PDT",
+   "last_pt": "2026-06-22 17:35 PDT",
+   "first_pt_date": "2026-03-18",
+   "last_pt_date": "2026-06-22"
+  },
+  "resting_heart_rate": {
+   "first_utc": "2026-03-18T19:05:09+00:00",
+   "last_utc": "2026-06-22T17:07:54+00:00",
+   "first_pt": "2026-03-18 12:05 PDT",
+   "last_pt": "2026-06-22 10:07 PDT",
+   "first_pt_date": "2026-03-18",
+   "last_pt_date": "2026-06-22"
+  },
+  "respiratory_rate": {
+   "first_utc": "2026-04-29T01:09:42+00:00",
+   "last_utc": "2026-05-19T00:10:52+00:00",
+   "first_pt": "2026-04-28 18:09 PDT",
+   "last_pt": "2026-05-18 17:10 PDT",
+   "first_pt_date": "2026-04-28",
+   "last_pt_date": "2026-05-18"
+  },
+  "step_count": {
+   "first_utc": "2026-03-18T19:27:03+00:00",
+   "last_utc": "2026-06-23T01:27:14+00:00",
+   "first_pt": "2026-03-18 12:27 PDT",
+   "last_pt": "2026-06-22 18:27 PDT",
+   "first_pt_date": "2026-03-18",
+   "last_pt_date": "2026-06-22"
+  },
+  "active_energy_burned": {
+   "first_utc": "2026-03-18T19:11:52+00:00",
+   "last_utc": "2026-06-23T01:38:55+00:00",
+   "first_pt": "2026-03-18 12:11 PDT",
+   "last_pt": "2026-06-22 18:38 PDT",
+   "first_pt_date": "2026-03-18",
+   "last_pt_date": "2026-06-22"
+  }
+ },
+ "per_metric_unified_count": {
+  "heart_rate": 5379,
+  "heart_rate_variability": 78,
+  "resting_heart_rate": 30,
+  "respiratory_rate": 3,
+  "step_count": 1411,
+  "active_energy_burned": 8672
+ },
+ "worn_day_definition": ">=1 heart_rate sample on a Pacific calendar day",
+ "worn_days_unified": [
+  "2026-03-18",
+  "2026-03-19",
+  "2026-03-20",
+  "2026-03-22",
+  "2026-03-23",
+  "2026-03-25",
+  "2026-03-28",
+  "2026-03-30",
+  "2026-04-08",
+  "2026-04-10",
+  "2026-04-11",
+  "2026-04-12",
+  "2026-04-14",
+  "2026-04-16",
+  "2026-04-18",
+  "2026-04-19",
+  "2026-04-20",
+  "2026-04-21",
+  "2026-04-26",
+  "2026-04-28",
+  "2026-04-29",
+  "2026-04-30",
+  "2026-05-04",
+  "2026-05-09",
+  "2026-05-10",
+  "2026-05-18",
+  "2026-05-19",
+  "2026-06-22"
+ ],
+ "worn_days_count_unified": 28,
+ "worn_days_deviceA_only": [
+  "2026-03-18",
+  "2026-03-19",
+  "2026-03-20",
+  "2026-03-22",
+  "2026-03-23",
+  "2026-03-25",
+  "2026-03-28",
+  "2026-03-30",
+  "2026-04-08",
+  "2026-04-11",
+  "2026-04-14",
+  "2026-04-16",
+  "2026-04-18",
+  "2026-04-19",
+  "2026-04-20",
+  "2026-04-21",
+  "2026-04-26",
+  "2026-04-28",
+  "2026-04-29",
+  "2026-04-30",
+  "2026-05-04",
+  "2026-05-09",
+  "2026-05-10",
+  "2026-05-18",
+  "2026-05-19",
+  "2026-06-22"
+ ],
+ "worn_days_deviceA_only_count": 26,
+ "worn_days_deviceB": [
+  "2026-04-10",
+  "2026-04-11",
+  "2026-04-12"
+ ],
+ "worn_days_recovered_by_stitch": [
+  "2026-04-10",
+  "2026-04-12"
+ ],
+ "any_biometric_days": [
+  "2026-03-18",
+  "2026-03-19",
+  "2026-03-20",
+  "2026-03-21",
+  "2026-03-22",
+  "2026-03-23",
+  "2026-03-25",
+  "2026-03-28",
+  "2026-03-30",
+  "2026-04-08",
+  "2026-04-10",
+  "2026-04-11",
+  "2026-04-12",
+  "2026-04-14",
+  "2026-04-16",
+  "2026-04-18",
+  "2026-04-19",
+  "2026-04-20",
+  "2026-04-21",
+  "2026-04-26",
+  "2026-04-28",
+  "2026-04-29",
+  "2026-04-30",
+  "2026-05-04",
+  "2026-05-09",
+  "2026-05-10",
+  "2026-05-18",
+  "2026-05-19",
+  "2026-06-22"
+ ],
+ "any_biometric_days_count": 29,
+ "genuine_gaps_HR_worn": [
+  {
+   "after": "2026-03-20",
+   "before": "2026-03-22",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-03-23",
+   "before": "2026-03-25",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-03-25",
+   "before": "2026-03-28",
+   "gap_days": 2
+  },
+  {
+   "after": "2026-03-28",
+   "before": "2026-03-30",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-03-30",
+   "before": "2026-04-08",
+   "gap_days": 8
+  },
+  {
+   "after": "2026-04-08",
+   "before": "2026-04-10",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-04-12",
+   "before": "2026-04-14",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-04-14",
+   "before": "2026-04-16",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-04-16",
+   "before": "2026-04-18",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-04-21",
+   "before": "2026-04-26",
+   "gap_days": 4
+  },
+  {
+   "after": "2026-04-26",
+   "before": "2026-04-28",
+   "gap_days": 1
+  },
+  {
+   "after": "2026-04-30",
+   "before": "2026-05-04",
+   "gap_days": 3
+  },
+  {
+   "after": "2026-05-04",
+   "before": "2026-05-09",
+   "gap_days": 4
+  },
+  {
+   "after": "2026-05-10",
+   "before": "2026-05-18",
+   "gap_days": 7
+  },
+  {
+   "after": "2026-05-19",
+   "before": "2026-06-22",
+   "gap_days": 33
+  }
+ ],
+ "meeting_era": {
+  "start": "2026-05-24",
+  "worn_days_in_meeting_era_HR": [
+   "2026-06-22"
+  ],
+  "any_biometric_days_in_meeting_era": [
+   "2026-06-22"
+  ]
+ },
+ "per_day_metric_counts": {
+  "2026-03-18": {
+   "heart_rate": 56,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 15,
+   "active_energy_burned": 30
+  },
+  "2026-03-19": {
+   "heart_rate": 210,
+   "heart_rate_variability": 3,
+   "resting_heart_rate": 1,
+   "step_count": 23,
+   "active_energy_burned": 641
+  },
+  "2026-03-20": {
+   "heart_rate": 110,
+   "heart_rate_variability": 4,
+   "resting_heart_rate": 2,
+   "step_count": 45,
+   "active_energy_burned": 82
+  },
+  "2026-03-21": {
+   "step_count": 3,
+   "heart_rate": 0
+  },
+  "2026-03-22": {
+   "heart_rate": 16,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 6,
+   "active_energy_burned": 7
+  },
+  "2026-03-23": {
+   "heart_rate": 53,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 2,
+   "step_count": 12,
+   "active_energy_burned": 26
+  },
+  "2026-03-25": {
+   "heart_rate": 55,
+   "heart_rate_variability": 3,
+   "resting_heart_rate": 1,
+   "step_count": 7,
+   "active_energy_burned": 32
+  },
+  "2026-03-28": {
+   "heart_rate": 362,
+   "heart_rate_variability": 1,
+   "step_count": 18,
+   "active_energy_burned": 167
+  },
+  "2026-03-30": {
+   "heart_rate": 376,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 28,
+   "active_energy_burned": 1003
+  },
+  "2026-04-08": {
+   "heart_rate": 66,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 23,
+   "active_energy_burned": 55
+  },
+  "2026-04-10": {
+   "heart_rate": 100,
+   "heart_rate_variability": 4,
+   "step_count": 58
+  },
+  "2026-04-11": {
+   "heart_rate": 133,
+   "heart_rate_variability": 4,
+   "step_count": 62,
+   "active_energy_burned": 45
+  },
+  "2026-04-12": {
+   "heart_rate": 51,
+   "heart_rate_variability": 3,
+   "step_count": 23
+  },
+  "2026-04-14": {
+   "heart_rate": 130,
+   "heart_rate_variability": 5,
+   "resting_heart_rate": 2,
+   "step_count": 48,
+   "active_energy_burned": 87
+  },
+  "2026-04-16": {
+   "heart_rate": 54,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 14,
+   "active_energy_burned": 26
+  },
+  "2026-04-18": {
+   "heart_rate": 1048,
+   "heart_rate_variability": 3,
+   "resting_heart_rate": 2,
+   "step_count": 56,
+   "active_energy_burned": 2109
+  },
+  "2026-04-19": {
+   "heart_rate": 124,
+   "heart_rate_variability": 3,
+   "resting_heart_rate": 2,
+   "step_count": 37,
+   "active_energy_burned": 80
+  },
+  "2026-04-20": {
+   "heart_rate": 197,
+   "heart_rate_variability": 5,
+   "resting_heart_rate": 1,
+   "step_count": 41,
+   "active_energy_burned": 206
+  },
+  "2026-04-21": {
+   "heart_rate": 255,
+   "heart_rate_variability": 2,
+   "step_count": 24,
+   "active_energy_burned": 832
+  },
+  "2026-04-26": {
+   "heart_rate": 214,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 22,
+   "active_energy_burned": 87
+  },
+  "2026-04-28": {
+   "heart_rate": 97,
+   "heart_rate_variability": 2,
+   "respiratory_rate": 1,
+   "step_count": 25,
+   "active_energy_burned": 115
+  },
+  "2026-04-29": {
+   "heart_rate": 10,
+   "step_count": 7,
+   "active_energy_burned": 6
+  },
+  "2026-04-30": {
+   "heart_rate": 17,
+   "step_count": 5,
+   "active_energy_burned": 45
+  },
+  "2026-05-04": {
+   "heart_rate": 117,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 26,
+   "active_energy_burned": 89
+  },
+  "2026-05-09": {
+   "heart_rate": 49,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 20,
+   "active_energy_burned": 32
+  },
+  "2026-05-10": {
+   "heart_rate": 230,
+   "heart_rate_variability": 3,
+   "resting_heart_rate": 1,
+   "step_count": 31,
+   "active_energy_burned": 307
+  },
+  "2026-05-18": {
+   "heart_rate": 882,
+   "heart_rate_variability": 6,
+   "resting_heart_rate": 3,
+   "respiratory_rate": 2,
+   "step_count": 665,
+   "active_energy_burned": 1822
+  },
+  "2026-05-19": {
+   "heart_rate": 184,
+   "heart_rate_variability": 7,
+   "resting_heart_rate": 4,
+   "step_count": 58,
+   "active_energy_burned": 318
+  },
+  "2026-06-22": {
+   "heart_rate": 183,
+   "heart_rate_variability": 2,
+   "resting_heart_rate": 1,
+   "step_count": 9,
+   "active_energy_burned": 423
+  }
+ },
+ "per_day_sources": {
+  "2026-03-18": [
+   "deviceA"
+  ],
+  "2026-03-19": [
+   "deviceA"
+  ],
+  "2026-03-20": [
+   "deviceA"
+  ],
+  "2026-03-21": [
+   "deviceA"
+  ],
+  "2026-03-22": [
+   "deviceA"
+  ],
+  "2026-03-23": [
+   "deviceA"
+  ],
+  "2026-03-25": [
+   "deviceA"
+  ],
+  "2026-03-28": [
+   "deviceA"
+  ],
+  "2026-03-30": [
+   "deviceA"
+  ],
+  "2026-04-08": [
+   "deviceA"
+  ],
+  "2026-04-10": [
+   "deviceB"
+  ],
+  "2026-04-11": [
+   "deviceA",
+   "deviceB"
+  ],
+  "2026-04-12": [
+   "deviceB"
+  ],
+  "2026-04-14": [
+   "deviceA"
+  ],
+  "2026-04-16": [
+   "deviceA"
+  ],
+  "2026-04-18": [
+   "deviceA"
+  ],
+  "2026-04-19": [
+   "deviceA"
+  ],
+  "2026-04-20": [
+   "deviceA"
+  ],
+  "2026-04-21": [
+   "deviceA"
+  ],
+  "2026-04-26": [
+   "deviceA"
+  ],
+  "2026-04-28": [
+   "deviceA"
+  ],
+  "2026-04-29": [
+   "deviceA"
+  ],
+  "2026-04-30": [
+   "deviceA"
+  ],
+  "2026-05-04": [
+   "deviceA"
+  ],
+  "2026-05-09": [
+   "deviceA"
+  ],
+  "2026-05-10": [
+   "deviceA"
+  ],
+  "2026-05-18": [
+   "deviceA"
+  ],
+  "2026-05-19": [
+   "deviceA"
+  ],
+  "2026-06-22": [
+   "deviceA"
+  ]
+ }
+}

@@ -1,0 +1,3391 @@
+{
+ "generated_at": "2026-07-02T20:18:56.822904+00:00",
+ "timestamp_verdict": {
+  "unit": "seconds",
+  "note": "apikey samples[].timestamp already ISO-formatted correctly by API (start_time_ts). Sample dates 2026-04-30..2026-07-02 all sane; values plausible. No client fix.",
+  "apikey_hr_first": {
+   "value": 82.0,
+   "timestamp": "2026-05-01T16:51:04+00:00"
+  },
+  "apikey_hr_last": {
+   "value": 69.0,
+   "timestamp": "2026-07-02T17:33:22+00:00"
+  }
+ },
+ "dedupe_stats": {
+  "heart_rate": {
+   "deviceAB": 5379,
+   "apikey": 7151,
+   "union_after_dedupe": 10614,
+   "collisions": 1916
+  },
+  "heart_rate_variability": {
+   "deviceAB": 78,
+   "apikey": 168,
+   "union_after_dedupe": 204,
+   "collisions": 42
+  },
+  "resting_heart_rate": {
+   "deviceAB": 30,
+   "apikey": 86,
+   "union_after_dedupe": 91,
+   "collisions": 25
+  },
+  "respiratory_rate": {
+   "deviceAB": 3,
+   "apikey": 0,
+   "union_after_dedupe": 3,
+   "collisions": 0
+  },
+  "step_count": {
+   "deviceAB": 1411,
+   "apikey": 1808,
+   "union_after_dedupe": 2753,
+   "collisions": 466
+  },
+  "active_energy_burned": {
+   "deviceAB": 8672,
+   "apikey": 6893,
+   "union_after_dedupe": 12973,
+   "collisions": 2592
+  }
+ },
+ "overlap_5_01_to_5_19_apikey_dupes_vs_deviceA": {
+  "heart_rate": 112,
+  "heart_rate_variability": 2,
+  "step_count": 36,
+  "active_energy_burned": 254
+ },
+ "per_metric_first_last": {
+  "heart_rate": {
+   "n": 10614,
+   "first": "2026-03-18T19:24:13+00:00",
+   "last": "2026-07-02T17:33:22+00:00",
+   "first_local_day": "2026-03-18",
+   "last_local_day": "2026-07-02",
+   "sources_seen": [
+    "apikey",
+    "deviceA",
+    "deviceB"
+   ]
+  },
+  "heart_rate_variability": {
+   "n": 204,
+   "first": "2026-03-18T20:21:05+00:00",
+   "last": "2026-07-02T16:42:20+00:00",
+   "first_local_day": "2026-03-18",
+   "last_local_day": "2026-07-02",
+   "sources_seen": [
+    "apikey",
+    "deviceA",
+    "deviceB"
+   ]
+  },
+  "resting_heart_rate": {
+   "n": 91,
+   "first": "2026-03-18T19:05:09+00:00",
+   "last": "2026-07-02T15:50:29+00:00",
+   "first_local_day": "2026-03-18",
+   "last_local_day": "2026-07-02",
+   "sources_seen": [
+    "apikey",
+    "deviceA"
+   ]
+  },
+  "respiratory_rate": {
+   "n": 3,
+   "first": "2026-04-29T01:09:42+00:00",
+   "last": "2026-05-19T00:10:52+00:00",
+   "first_local_day": "2026-04-28",
+   "last_local_day": "2026-05-18",
+   "sources_seen": [
+    "deviceA"
+   ]
+  },
+  "step_count": {
+   "n": 2753,
+   "first": "2026-03-18T19:27:03+00:00",
+   "last": "2026-07-02T17:01:35+00:00",
+   "first_local_day": "2026-03-18",
+   "last_local_day": "2026-07-02",
+   "sources_seen": [
+    "apikey",
+    "deviceA",
+    "deviceB"
+   ]
+  },
+  "active_energy_burned": {
+   "n": 12973,
+   "first": "2026-03-18T19:11:52+00:00",
+   "last": "2026-07-02T17:00:51+00:00",
+   "first_local_day": "2026-03-18",
+   "last_local_day": "2026-07-02",
+   "sources_seen": [
+    "apikey",
+    "deviceA"
+   ]
+  }
+ },
+ "worn_day_count_total": 63,
+ "worn_days_first_last": [
+  "2026-03-18",
+  "2026-07-02"
+ ],
+ "void_5_20_to_6_21": {
+  "days_in_window": 33,
+  "worn_days_filled": 24,
+  "any_data_days": 25,
+  "per_day": {
+   "2026-05-20": {
+    "total": 375,
+    "hr": 160,
+    "hrv": 6,
+    "steps": 44,
+    "energy": 160,
+    "rhr": 5,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-21": {
+    "total": 482,
+    "hr": 223,
+    "hrv": 5,
+    "steps": 74,
+    "energy": 178,
+    "rhr": 2,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-22": {
+    "total": 348,
+    "hr": 163,
+    "hrv": 6,
+    "steps": 66,
+    "energy": 110,
+    "rhr": 3,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-23": {
+    "total": 427,
+    "hr": 210,
+    "hrv": 3,
+    "steps": 52,
+    "energy": 159,
+    "rhr": 3,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-24": {
+    "total": 53,
+    "hr": 22,
+    "hrv": 1,
+    "steps": 17,
+    "energy": 13,
+    "rhr": 0,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-25": {
+    "total": 281,
+    "hr": 105,
+    "hrv": 3,
+    "steps": 49,
+    "energy": 123,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-26": {
+    "total": 690,
+    "hr": 214,
+    "hrv": 4,
+    "steps": 44,
+    "energy": 426,
+    "rhr": 2,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-27": {
+    "total": 335,
+    "hr": 124,
+    "hrv": 3,
+    "steps": 44,
+    "energy": 163,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-28": {
+    "total": 473,
+    "hr": 186,
+    "hrv": 6,
+    "steps": 36,
+    "energy": 241,
+    "rhr": 4,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-29": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-05-30": {
+    "total": 150,
+    "hr": 69,
+    "hrv": 3,
+    "steps": 36,
+    "energy": 40,
+    "rhr": 2,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-05-31": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-06-01": {
+    "total": 371,
+    "hr": 175,
+    "hrv": 9,
+    "steps": 72,
+    "energy": 113,
+    "rhr": 2,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-02": {
+    "total": 761,
+    "hr": 331,
+    "hrv": 5,
+    "steps": 83,
+    "energy": 337,
+    "rhr": 5,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-03": {
+    "total": 134,
+    "hr": 67,
+    "hrv": 2,
+    "steps": 20,
+    "energy": 44,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-04": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-06-05": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-06-06": {
+    "total": 141,
+    "hr": 70,
+    "hrv": 2,
+    "steps": 25,
+    "energy": 43,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-07": {
+    "total": 3,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 3,
+    "rhr": 0,
+    "sources": [
+     "apikey"
+    ],
+    "worn": false
+   },
+   "2026-06-08": {
+    "total": 212,
+    "hr": 77,
+    "hrv": 0,
+    "steps": 4,
+    "energy": 131,
+    "rhr": 0,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-09": {
+    "total": 231,
+    "hr": 144,
+    "hrv": 2,
+    "steps": 15,
+    "energy": 70,
+    "rhr": 0,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-10": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-06-11": {
+    "total": 173,
+    "hr": 68,
+    "hrv": 3,
+    "steps": 39,
+    "energy": 62,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-12": {
+    "total": 280,
+    "hr": 123,
+    "hrv": 4,
+    "steps": 47,
+    "energy": 103,
+    "rhr": 3,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-13": {
+    "total": 135,
+    "hr": 33,
+    "hrv": 1,
+    "steps": 14,
+    "energy": 86,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-14": {
+    "total": 138,
+    "hr": 70,
+    "hrv": 4,
+    "steps": 25,
+    "energy": 38,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-15": {
+    "total": 321,
+    "hr": 169,
+    "hrv": 6,
+    "steps": 35,
+    "energy": 110,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-16": {
+    "total": 379,
+    "hr": 192,
+    "hrv": 5,
+    "steps": 28,
+    "energy": 152,
+    "rhr": 2,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-17": {
+    "total": 199,
+    "hr": 130,
+    "hrv": 2,
+    "steps": 15,
+    "energy": 51,
+    "rhr": 1,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-18": {
+    "total": 199,
+    "hr": 83,
+    "hrv": 4,
+    "steps": 27,
+    "energy": 83,
+    "rhr": 2,
+    "sources": [
+     "apikey"
+    ],
+    "worn": true
+   },
+   "2026-06-19": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-06-20": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   },
+   "2026-06-21": {
+    "total": 0,
+    "hr": 0,
+    "hrv": 0,
+    "steps": 0,
+    "energy": 0,
+    "rhr": 0,
+    "sources": [],
+    "worn": false
+   }
+  },
+  "verdict": "apikey fills 24/33 void days with HR (worn); 25/33 have any data"
+ },
+ "longest_continuous_span_gap0": [
+  [
+   "2026-05-18",
+   "2026-05-28",
+   11,
+   11
+  ],
+  [
+   "2026-06-11",
+   "2026-06-18",
+   8,
+   8
+  ],
+  [
+   "2026-04-18",
+   "2026-04-21",
+   4,
+   4
+  ]
+ ],
+ "longest_continuous_span_gap1": [
+  [
+   "2026-05-18",
+   "2026-06-03",
+   15,
+   17
+  ],
+  [
+   "2026-04-08",
+   "2026-04-21",
+   10,
+   14
+  ],
+  [
+   "2026-06-06",
+   "2026-06-18",
+   11,
+   13
+  ]
+ ],
+ "longest_continuous_span_gap3": [
+  [
+   "2026-05-18",
+   "2026-07-02",
+   35,
+   46
+  ],
+  [
+   "2026-04-26",
+   "2026-05-10",
+   10,
+   15
+  ],
+  [
+   "2026-04-08",
+   "2026-04-21",
+   10,
+   14
+  ]
+ ],
+ "calendar": {
+  "2026-03-18": {
+   "total_samples": 104,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 56,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 15,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 30,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-19": {
+   "total_samples": 878,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 210,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 23,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 641,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-20": {
+   "total_samples": 243,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 110,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 45,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 82,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-21": {
+   "total_samples": 3,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "step_count"
+   ],
+   "per_metric": {
+    "step_count": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": false
+  },
+  "2026-03-22": {
+   "total_samples": 32,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 16,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 6,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 7,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-23": {
+   "total_samples": 95,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 53,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 12,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 26,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-25": {
+   "total_samples": 98,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 55,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 7,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 32,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-28": {
+   "total_samples": 548,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 362,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 18,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 167,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-03-30": {
+   "total_samples": 1410,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 376,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 28,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 1003,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-08": {
+   "total_samples": 147,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 66,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 23,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 55,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-10": {
+   "total_samples": 162,
+   "sources": [
+    "deviceB"
+   ],
+   "metrics_present": [
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 100,
+     "sources": [
+      "deviceB"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "deviceB"
+     ]
+    },
+    "step_count": {
+     "count": 58,
+     "sources": [
+      "deviceB"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-11": {
+   "total_samples": 244,
+   "sources": [
+    "deviceA",
+    "deviceB"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 133,
+     "sources": [
+      "deviceA",
+      "deviceB"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "deviceA",
+      "deviceB"
+     ]
+    },
+    "step_count": {
+     "count": 62,
+     "sources": [
+      "deviceA",
+      "deviceB"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 45,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-12": {
+   "total_samples": 77,
+   "sources": [
+    "deviceB"
+   ],
+   "metrics_present": [
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 51,
+     "sources": [
+      "deviceB"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "deviceB"
+     ]
+    },
+    "step_count": {
+     "count": 23,
+     "sources": [
+      "deviceB"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-14": {
+   "total_samples": 272,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 130,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 5,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 48,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 87,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-16": {
+   "total_samples": 97,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 54,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 14,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 26,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-18": {
+   "total_samples": 3218,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 1048,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 56,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 2109,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-19": {
+   "total_samples": 246,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 124,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 37,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 80,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-20": {
+   "total_samples": 450,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 197,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 5,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 41,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 206,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-21": {
+   "total_samples": 1113,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 255,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 24,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 832,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-26": {
+   "total_samples": 326,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 214,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 22,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 87,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-28": {
+   "total_samples": 240,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "respiratory_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 97,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "respiratory_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 25,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 115,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-29": {
+   "total_samples": 23,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 10,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 7,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 6,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-04-30": {
+   "total_samples": 67,
+   "sources": [
+    "apikey",
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 17,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 5,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 45,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-01": {
+   "total_samples": 574,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 549,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 23,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-04": {
+   "total_samples": 235,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 117,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 26,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 89,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-07": {
+   "total_samples": 36,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 11,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 25,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-08": {
+   "total_samples": 120,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 91,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 28,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-09": {
+   "total_samples": 104,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 49,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 20,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 32,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-10": {
+   "total_samples": 581,
+   "sources": [
+    "apikey",
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 234,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 36,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 307,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-18": {
+   "total_samples": 3380,
+   "sources": [
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "respiratory_rate",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 882,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 3,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "respiratory_rate": {
+     "count": 2,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 665,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 1822,
+     "sources": [
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-19": {
+   "total_samples": 759,
+   "sources": [
+    "apikey",
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 265,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 8,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 4,
+     "sources": [
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 65,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 417,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-20": {
+   "total_samples": 375,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 160,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 5,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 44,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 160,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-21": {
+   "total_samples": 482,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 223,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 5,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 74,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 178,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-22": {
+   "total_samples": 348,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 163,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 66,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 110,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-23": {
+   "total_samples": 427,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 210,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 52,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 159,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-24": {
+   "total_samples": 53,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 22,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 17,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 13,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-25": {
+   "total_samples": 281,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 105,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 49,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 123,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-26": {
+   "total_samples": 690,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 214,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 44,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 426,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-27": {
+   "total_samples": 335,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 124,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 44,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 163,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-28": {
+   "total_samples": 473,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 186,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 36,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 241,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-05-30": {
+   "total_samples": 150,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 69,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 36,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 40,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-01": {
+   "total_samples": 371,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 175,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 9,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 72,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 113,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-02": {
+   "total_samples": 761,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 331,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 5,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 5,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 83,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 337,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-03": {
+   "total_samples": 134,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 67,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 20,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 44,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-06": {
+   "total_samples": 141,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 70,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 25,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 43,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-07": {
+   "total_samples": 3,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned"
+   ],
+   "per_metric": {
+    "active_energy_burned": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": false
+  },
+  "2026-06-08": {
+   "total_samples": 212,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 77,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 131,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-09": {
+   "total_samples": 231,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 144,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 15,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 70,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-11": {
+   "total_samples": 173,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 68,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 39,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 62,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-12": {
+   "total_samples": 280,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 123,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 47,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 103,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-13": {
+   "total_samples": 135,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 33,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 14,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 86,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-14": {
+   "total_samples": 138,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 70,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 25,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 38,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-15": {
+   "total_samples": 321,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 169,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 35,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 110,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-16": {
+   "total_samples": 379,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 192,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 5,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 28,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 152,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-17": {
+   "total_samples": 199,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 130,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 15,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 51,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-18": {
+   "total_samples": 199,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 83,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 27,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 83,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-22": {
+   "total_samples": 1340,
+   "sources": [
+    "apikey",
+    "deviceA"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 465,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "step_count": {
+     "count": 43,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 824,
+     "sources": [
+      "apikey",
+      "deviceA"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-23": {
+   "total_samples": 335,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 110,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 53,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 166,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-24": {
+   "total_samples": 407,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 159,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 7,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 66,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 173,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-26": {
+   "total_samples": 306,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 146,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 4,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 50,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 104,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-27": {
+   "total_samples": 334,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 237,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 39,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 53,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-28": {
+   "total_samples": 100,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 55,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 1,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 19,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 24,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-06-30": {
+   "total_samples": 185,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 81,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 32,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 68,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-07-01": {
+   "total_samples": 383,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 180,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 6,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 3,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 40,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 154,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  },
+  "2026-07-02": {
+   "total_samples": 75,
+   "sources": [
+    "apikey"
+   ],
+   "metrics_present": [
+    "active_energy_burned",
+    "heart_rate",
+    "heart_rate_variability",
+    "resting_heart_rate",
+    "step_count"
+   ],
+   "per_metric": {
+    "heart_rate": {
+     "count": 41,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "heart_rate_variability": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "resting_heart_rate": {
+     "count": 2,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "step_count": {
+     "count": 10,
+     "sources": [
+      "apikey"
+     ]
+    },
+    "active_energy_burned": {
+     "count": 20,
+     "sources": [
+      "apikey"
+     ]
+    }
+   },
+   "worn": true
+  }
+ }
+}

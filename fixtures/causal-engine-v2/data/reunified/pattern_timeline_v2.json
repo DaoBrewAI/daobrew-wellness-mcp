@@ -1,0 +1,7882 @@
+{
+ "generated_at": "2026-07-03T05:57:55.765118+00:00",
+ "method": "local read-only exec of daobrew_backend algorithmic path; rolling EMA baselines; Pacific day boundaries",
+ "pattern_map": {
+  "wood": "TENSION",
+  "fire": "OVERDRIVE",
+  "earth": "STAGNATION",
+  "metal": "CONSTRICTION",
+  "water": "DEPLETION"
+ },
+ "n_days": 107,
+ "timeline": [
+  {
+   "date": "2026-03-18",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 11,
+    "OVERDRIVE": 11,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 46,
+   "yang_score": 39,
+   "quadrant": "running_on_empty",
+   "hr_mean": 83.0,
+   "hrv_mean": 47.2,
+   "steps": 2749.0,
+   "counts": {
+    "n_hr": 56,
+    "n_hrv": 2,
+    "n_steps": 15
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 39,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 56,
+      "n_hrv": 2,
+      "n_steps": 15
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-19",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 33,
+    "OVERDRIVE": 49,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 35,
+   "yang_score": 48,
+   "quadrant": "running_on_empty",
+   "hr_mean": 99.9,
+   "hrv_mean": 45.4,
+   "steps": 5769.0,
+   "counts": {
+    "n_hr": 210,
+    "n_hrv": 3,
+    "n_steps": 23
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 35,
+     "yang": 48,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 210,
+      "n_hrv": 3,
+      "n_steps": 23
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-20",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 9,
+    "OVERDRIVE": 9,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 65,
+   "yang_score": 48,
+   "quadrant": "recharging",
+   "hr_mean": 71.7,
+   "hrv_mean": 55.9,
+   "steps": 6065.0,
+   "counts": {
+    "n_hr": 110,
+    "n_hrv": 4,
+    "n_steps": 45
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 61,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 65,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 21,
+      "n_hrv": 1,
+      "n_steps": 7
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 65,
+     "yang": 48,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 89,
+      "n_hrv": 3,
+      "n_steps": 38
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-21",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 35,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "STAGNATION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 50,
+   "yang_score": 36,
+   "quadrant": "recharging",
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": 388.0,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 3
+   },
+   "source_quality": "sparse_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 3
+     },
+     "source_quality": "sparse_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-03-22",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 12,
+    "OVERDRIVE": 12,
+    "STAGNATION": 24,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "STAGNATION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 65,
+   "yang_score": 36,
+   "quadrant": "recharging",
+   "hr_mean": 72.8,
+   "hrv_mean": 85.8,
+   "steps": 1081.0,
+   "counts": {
+    "n_hr": 16,
+    "n_hrv": 2,
+    "n_steps": 6
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 65,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 16,
+      "n_hrv": 2,
+      "n_steps": 6
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-03-23",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 15,
+    "OVERDRIVE": 15,
+    "STAGNATION": 11,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 56,
+   "yang_score": 39,
+   "quadrant": "recharging",
+   "hr_mean": 70.0,
+   "hrv_mean": 70.6,
+   "steps": 2559.0,
+   "counts": {
+    "n_hr": 53,
+    "n_hrv": 2,
+    "n_steps": 12
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 56,
+     "yang": 39,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 53,
+      "n_hrv": 2,
+      "n_steps": 12
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-24",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-03-25",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 52,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 9,
+    "OVERDRIVE": 9,
+    "STAGNATION": 52,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "STAGNATION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 52,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "STAGNATION",
+    "DEPLETION"
+   ],
+   "yin_score": 53,
+   "yang_score": 36,
+   "quadrant": "recharging",
+   "hr_mean": 69.0,
+   "hrv_mean": 62.4,
+   "steps": 258.0,
+   "counts": {
+    "n_hr": 55,
+    "n_hrv": 3,
+    "n_steps": 7
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 52,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 53,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 55,
+      "n_hrv": 3,
+      "n_steps": 7
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-26",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-03-27",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-03-28",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 11,
+    "OVERDRIVE": 46,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 11,
+    "OVERDRIVE": 46,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 11,
+    "fire": 46,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 59,
+   "yang_score": 62,
+   "quadrant": "in_flow",
+   "hr_mean": 110.7,
+   "hrv_mean": 112.5,
+   "steps": 11474.0,
+   "counts": {
+    "n_hr": 362,
+    "n_hrv": 1,
+    "n_steps": 18
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 16,
+      "fire": 51,
+      "earth": 1,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 61,
+     "yang": 52,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 68,
+      "n_hrv": 1,
+      "n_steps": 13
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 42,
+     "yang": 42,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 294,
+      "n_hrv": 0,
+      "n_steps": 5
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-29",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-03-30",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 56,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 21,
+    "OVERDRIVE": 56,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 56,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "OVERDRIVE",
+    "DEPLETION"
+   ],
+   "yin_score": 45,
+   "yang_score": 43,
+   "quadrant": "running_on_empty",
+   "hr_mean": 118.9,
+   "hrv_mean": 70.4,
+   "steps": 3824.0,
+   "counts": {
+    "n_hr": 376,
+    "n_hrv": 2,
+    "n_steps": 28
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 56,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 45,
+     "yang": 43,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 376,
+      "n_hrv": 2,
+      "n_steps": 28
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-03-31",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-01",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-02",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-03",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-04",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-05",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-06",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-07",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-08",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 28,
+    "OVERDRIVE": 20,
+    "STAGNATION": 3,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 47,
+   "yang_score": 43,
+   "quadrant": "running_on_empty",
+   "hr_mean": 75.8,
+   "hrv_mean": 48.3,
+   "steps": 4342.0,
+   "counts": {
+    "n_hr": 66,
+    "n_hrv": 2,
+    "n_steps": 23
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 49,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 18,
+      "n_hrv": 1,
+      "n_steps": 6
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 41,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 48,
+      "n_hrv": 1,
+      "n_steps": 17
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-09",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-10",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 20,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 20,
+    "OVERDRIVE": 13,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 20,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 47,
+   "yang_score": 54,
+   "quadrant": "pushing_it",
+   "hr_mean": 74.3,
+   "hrv_mean": 47.5,
+   "steps": 8336.0,
+   "counts": {
+    "n_hr": 100,
+    "n_hrv": 4,
+    "n_steps": 58
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 20,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 47,
+     "yang": 54,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 100,
+      "n_hrv": 4,
+      "n_steps": 58
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-11",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 17,
+    "OVERDRIVE": 16,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 50,
+   "yang_score": 48,
+   "quadrant": "recharging",
+   "hr_mean": 78.0,
+   "hrv_mean": 62.4,
+   "steps": 6153.0,
+   "counts": {
+    "n_hr": 133,
+    "n_hrv": 4,
+    "n_steps": 62
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 1
+     },
+     "source_quality": "sparse_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 46,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 133,
+      "n_hrv": 4,
+      "n_steps": 61
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-12",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 21,
+    "OVERDRIVE": 12,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 46,
+   "yang_score": 37,
+   "quadrant": "running_on_empty",
+   "hr_mean": 74.4,
+   "hrv_mean": 41.9,
+   "steps": 1390.0,
+   "counts": {
+    "n_hr": 51,
+    "n_hrv": 3,
+    "n_steps": 23
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 4
+     },
+     "source_quality": "sparse_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 51,
+      "n_hrv": 3,
+      "n_steps": 19
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-13",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-14",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 12,
+    "OVERDRIVE": 11,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 51,
+   "yang_score": 49,
+   "quadrant": "recharging",
+   "hr_mean": 73.6,
+   "hrv_mean": 59.9,
+   "steps": 6148.0,
+   "counts": {
+    "n_hr": 130,
+    "n_hrv": 5,
+    "n_steps": 48
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 56,
+     "yang": 37,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 22,
+      "n_hrv": 1,
+      "n_steps": 5
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 49,
+     "yang": 45,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 108,
+      "n_hrv": 4,
+      "n_steps": 43
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-15",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-16",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 10,
+    "OVERDRIVE": 10,
+    "STAGNATION": 5,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 54,
+   "yang_score": 39,
+   "quadrant": "recharging",
+   "hr_mean": 71.3,
+   "hrv_mean": 71.1,
+   "steps": 2745.0,
+   "counts": {
+    "n_hr": 54,
+    "n_hrv": 2,
+    "n_steps": 14
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 54,
+     "yang": 39,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 54,
+      "n_hrv": 2,
+      "n_steps": 14
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-17",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-18",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 56,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 31,
+    "OVERDRIVE": 56,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 56,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "OVERDRIVE",
+    "DEPLETION"
+   ],
+   "yin_score": 40,
+   "yang_score": 49,
+   "quadrant": "running_on_empty",
+   "hr_mean": 109.5,
+   "hrv_mean": 38.3,
+   "steps": 5599.0,
+   "counts": {
+    "n_hr": 1048,
+    "n_hrv": 3,
+    "n_steps": 56
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 56,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 40,
+     "yang": 49,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 1048,
+      "n_hrv": 3,
+      "n_steps": 56
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-19",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 32,
+    "OVERDRIVE": 27,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 47,
+   "yang_score": 42,
+   "quadrant": "running_on_empty",
+   "hr_mean": 79.1,
+   "hrv_mean": 47.7,
+   "steps": 3673.0,
+   "counts": {
+    "n_hr": 124,
+    "n_hrv": 3,
+    "n_steps": 37
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 45,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 50,
+      "n_hrv": 2,
+      "n_steps": 20
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 38,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 74,
+      "n_hrv": 1,
+      "n_steps": 17
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-20",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 22,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 22,
+    "OVERDRIVE": 19,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 22,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 49,
+   "yang_score": 57,
+   "quadrant": "pushing_it",
+   "hr_mean": 77.3,
+   "hrv_mean": 52.9,
+   "steps": 9046.0,
+   "counts": {
+    "n_hr": 197,
+    "n_hrv": 5,
+    "n_steps": 41
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 47,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 73,
+      "n_hrv": 2,
+      "n_steps": 11
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "TENSION",
+     "any_active": false,
+     "balanced_flag": true,
+     "scores": {
+      "wood": 16,
+      "fire": 15,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 50,
+     "yang": 52,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 124,
+      "n_hrv": 3,
+      "n_steps": 30
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-21",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 52,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 25,
+    "OVERDRIVE": 52,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 52,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "OVERDRIVE",
+    "DEPLETION"
+   ],
+   "yin_score": 48,
+   "yang_score": 49,
+   "quadrant": "running_on_empty",
+   "hr_mean": 102.1,
+   "hrv_mean": 65.0,
+   "steps": 6005.0,
+   "counts": {
+    "n_hr": 255,
+    "n_hrv": 2,
+    "n_steps": 24
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 52,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 49,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 255,
+      "n_hrv": 2,
+      "n_steps": 24
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-22",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-23",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-24",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-25",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-26",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 16,
+    "OVERDRIVE": 16,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 51,
+   "yang_score": 47,
+   "quadrant": "recharging",
+   "hr_mean": 84.4,
+   "hrv_mean": 63.1,
+   "steps": 5631.0,
+   "counts": {
+    "n_hr": 214,
+    "n_hrv": 2,
+    "n_steps": 22
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 53,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 5,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 47,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 209,
+      "n_hrv": 2,
+      "n_steps": 22
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-27",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-04-28",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 23,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 23,
+    "OVERDRIVE": 29,
+    "STAGNATION": 0,
+    "CONSTRICTION": 35,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "CONSTRICTION",
+   "element_scores": {
+    "wood": 23,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 47,
+   "yang_score": 54,
+   "quadrant": "pushing_it",
+   "hr_mean": 90.3,
+   "hrv_mean": 53.4,
+   "steps": 8347.0,
+   "counts": {
+    "n_hr": 97,
+    "n_hrv": 2,
+    "n_steps": 25
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 23,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 47,
+     "yang": 54,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 97,
+      "n_hrv": 2,
+      "n_steps": 25
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-29",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 8,
+    "OVERDRIVE": 8,
+    "STAGNATION": 19,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "STAGNATION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 51,
+   "yang_score": 36,
+   "quadrant": "recharging",
+   "hr_mean": 77.1,
+   "hrv_mean": null,
+   "steps": 1206.0,
+   "counts": {
+    "n_hr": 10,
+    "n_hrv": 0,
+    "n_steps": 7
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 10,
+      "n_hrv": 0,
+      "n_steps": 7
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-04-30",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 18,
+    "OVERDRIVE": 24,
+    "STAGNATION": 40,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "STAGNATION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 49,
+   "yang_score": 36,
+   "quadrant": "running_on_empty",
+   "hr_mean": 88.3,
+   "hrv_mean": null,
+   "steps": 804.0,
+   "counts": {
+    "n_hr": 17,
+    "n_hrv": 0,
+    "n_steps": 5
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 11,
+      "n_hrv": 0,
+      "n_steps": 5
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 6,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-01",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 19,
+    "OVERDRIVE": 14,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 48,
+   "yang_score": 38,
+   "quadrant": "running_on_empty",
+   "hr_mean": 75.3,
+   "hrv_mean": 47.8,
+   "steps": 2243.0,
+   "counts": {
+    "n_hr": 549,
+    "n_hrv": 2,
+    "n_steps": 23
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 437,
+      "n_hrv": 0,
+      "n_steps": 9
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 49,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 112,
+      "n_hrv": 2,
+      "n_steps": 14
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-02",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-03",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-04",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 18,
+    "OVERDRIVE": 21,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 52,
+   "yang_score": 49,
+   "quadrant": "recharging",
+   "hr_mean": 86.0,
+   "hrv_mean": 66.8,
+   "steps": 6409.0,
+   "counts": {
+    "n_hr": 117,
+    "n_hrv": 2,
+    "n_steps": 26
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 52,
+     "yang": 49,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 117,
+      "n_hrv": 2,
+      "n_steps": 26
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-05",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-06",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-07",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 6,
+    "OVERDRIVE": 6,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 6,
+    "OVERDRIVE": 6,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 6,
+    "fire": 6,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 52,
+   "yang_score": 62,
+   "quadrant": "in_flow",
+   "hr_mean": 70.7,
+   "hrv_mean": null,
+   "steps": 13485.0,
+   "counts": {
+    "n_hr": 11,
+    "n_hrv": 0,
+    "n_steps": 25
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "TENSION",
+     "any_active": false,
+     "balanced_flag": true,
+     "scores": {
+      "wood": 6,
+      "fire": 6,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 52,
+     "yang": 62,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 11,
+      "n_hrv": 0,
+      "n_steps": 25
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-08",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 8,
+    "OVERDRIVE": 8,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 54,
+   "yang_score": 41,
+   "quadrant": "recharging",
+   "hr_mean": 66.4,
+   "hrv_mean": 66.0,
+   "steps": 3886.0,
+   "counts": {
+    "n_hr": 91,
+    "n_hrv": 1,
+    "n_steps": 28
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 4
+     },
+     "source_quality": "sparse_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 54,
+     "yang": 40,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 91,
+      "n_hrv": 1,
+      "n_steps": 24
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-09",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 17,
+    "OVERDRIVE": 22,
+    "STAGNATION": 22,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 48,
+   "yang_score": 36,
+   "quadrant": "running_on_empty",
+   "hr_mean": 87.7,
+   "hrv_mean": 55.6,
+   "steps": 864.0,
+   "counts": {
+    "n_hr": 49,
+    "n_hrv": 2,
+    "n_steps": 20
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 59,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 7,
+      "n_hrv": 1,
+      "n_steps": 0
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 39,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 42,
+      "n_hrv": 1,
+      "n_steps": 20
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-10",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 22,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 22,
+    "OVERDRIVE": 15,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 22,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 46,
+   "yang_score": 57,
+   "quadrant": "pushing_it",
+   "hr_mean": 80.8,
+   "hrv_mean": 43.7,
+   "steps": 9262.0,
+   "counts": {
+    "n_hr": 234,
+    "n_hrv": 3,
+    "n_steps": 36
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 43,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 182,
+      "n_hrv": 2,
+      "n_steps": 18
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 42,
+     "yang": 44,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 52,
+      "n_hrv": 1,
+      "n_steps": 18
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-11",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-12",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-13",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-14",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-15",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-16",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-17",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-18",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 28,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 55,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 28,
+    "OVERDRIVE": 60,
+    "STAGNATION": 0,
+    "CONSTRICTION": 55,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 28,
+    "fire": 75,
+    "earth": 0,
+    "metal": 55,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE",
+    "CONSTRICTION"
+   ],
+   "yin_score": 44,
+   "yang_score": 63,
+   "quadrant": "pushing_it",
+   "hr_mean": 110.0,
+   "hrv_mean": 53.7,
+   "steps": 11491.0,
+   "counts": {
+    "n_hr": 882,
+    "n_hrv": 6,
+    "n_steps": 665
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 40,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 44,
+      "n_hrv": 2,
+      "n_steps": 10
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 25,
+      "fire": 75,
+      "earth": 0,
+      "metal": 55,
+      "water": 0
+     },
+     "yin": 45,
+     "yang": 58,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 838,
+      "n_hrv": 4,
+      "n_steps": 655
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-19",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 25,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 25,
+    "OVERDRIVE": 18,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 25,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 46,
+   "yang_score": 64,
+   "quadrant": "pushing_it",
+   "hr_mean": 80.4,
+   "hrv_mean": 43.6,
+   "steps": 15589.0,
+   "counts": {
+    "n_hr": 265,
+    "n_hrv": 8,
+    "n_steps": 65
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 18,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 49,
+     "yang": 57,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 77,
+      "n_hrv": 3,
+      "n_steps": 27
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 44,
+     "yang": 49,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 188,
+      "n_hrv": 5,
+      "n_steps": 38
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-20",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 16,
+    "OVERDRIVE": 16,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 16,
+    "OVERDRIVE": 16,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 16,
+    "fire": 16,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 52,
+   "yang_score": 55,
+   "quadrant": "in_flow",
+   "hr_mean": 74.7,
+   "hrv_mean": 60.4,
+   "steps": 8502.0,
+   "counts": {
+    "n_hr": 160,
+    "n_hrv": 6,
+    "n_steps": 44
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 52,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 44,
+      "n_hrv": 3,
+      "n_steps": 13
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "TENSION",
+     "any_active": false,
+     "balanced_flag": true,
+     "scores": {
+      "wood": 15,
+      "fire": 15,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 52,
+     "yang": 53,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 116,
+      "n_hrv": 3,
+      "n_steps": 31
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-21",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 27,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 27,
+    "OVERDRIVE": 24,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 27,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 47,
+   "yang_score": 60,
+   "quadrant": "pushing_it",
+   "hr_mean": 84.0,
+   "hrv_mean": 50.0,
+   "steps": 10504.0,
+   "counts": {
+    "n_hr": 223,
+    "n_hrv": 5,
+    "n_steps": 74
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 52,
+     "yang": 39,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 35,
+      "n_hrv": 0,
+      "n_steps": 19
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 26,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 47,
+     "yang": 54,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 188,
+      "n_hrv": 5,
+      "n_steps": 55
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-22",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 25,
+    "OVERDRIVE": 25,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 25,
+    "OVERDRIVE": 25,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 25,
+    "fire": 25,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 50,
+   "yang_score": 56,
+   "quadrant": "in_flow",
+   "hr_mean": 80.7,
+   "hrv_mean": 56.6,
+   "steps": 8786.0,
+   "counts": {
+    "n_hr": 163,
+    "n_hrv": 6,
+    "n_steps": 66
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 55,
+     "yang": 38,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 20,
+      "n_hrv": 2,
+      "n_steps": 16
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 29,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 48,
+     "yang": 51,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 143,
+      "n_hrv": 4,
+      "n_steps": 50
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-23",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 20,
+    "OVERDRIVE": 20,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 20,
+    "OVERDRIVE": 20,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 20,
+    "fire": 20,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 60,
+   "yang_score": 57,
+   "quadrant": "in_flow",
+   "hr_mean": 78.6,
+   "hrv_mean": 88.5,
+   "steps": 9071.0,
+   "counts": {
+    "n_hr": 210,
+    "n_hrv": 3,
+    "n_steps": 52
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "TENSION",
+     "any_active": false,
+     "balanced_flag": true,
+     "scores": {
+      "wood": 20,
+      "fire": 20,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 60,
+     "yang": 57,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 210,
+      "n_hrv": 3,
+      "n_steps": 52
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-24",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 15,
+    "OVERDRIVE": 12,
+    "STAGNATION": 13,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 50,
+   "yang_score": 41,
+   "quadrant": "recharging",
+   "hr_mean": 73.3,
+   "hrv_mean": 54.4,
+   "steps": 3673.0,
+   "counts": {
+    "n_hr": 22,
+    "n_hrv": 1,
+    "n_steps": 17
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 41,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 22,
+      "n_hrv": 1,
+      "n_steps": 17
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-25",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 21,
+    "OVERDRIVE": 21,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 48,
+   "yang_score": 49,
+   "quadrant": "running_on_empty",
+   "hr_mean": 84.5,
+   "hrv_mean": 53.8,
+   "steps": 6317.0,
+   "counts": {
+    "n_hr": 105,
+    "n_hrv": 3,
+    "n_steps": 49
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 49,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 105,
+      "n_hrv": 3,
+      "n_steps": 49
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-26",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 14,
+    "OVERDRIVE": 14,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 14,
+    "OVERDRIVE": 14,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 14,
+    "fire": 14,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 51,
+   "yang_score": 54,
+   "quadrant": "in_flow",
+   "hr_mean": 82.9,
+   "hrv_mean": 62.3,
+   "steps": 8073.0,
+   "counts": {
+    "n_hr": 214,
+    "n_hrv": 4,
+    "n_steps": 44
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 45,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 135,
+      "n_hrv": 3,
+      "n_steps": 22
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 65,
+     "yang": 40,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 79,
+      "n_hrv": 1,
+      "n_steps": 22
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-27",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 19,
+    "OVERDRIVE": 20,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 49,
+   "yang_score": 47,
+   "quadrant": "running_on_empty",
+   "hr_mean": 84.0,
+   "hrv_mean": 57.0,
+   "steps": 5547.0,
+   "counts": {
+    "n_hr": 124,
+    "n_hrv": 3,
+    "n_steps": 44
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 49,
+     "yang": 47,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 124,
+      "n_hrv": 3,
+      "n_steps": 44
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-28",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 28,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 28,
+    "OVERDRIVE": 26,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 28,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 45,
+   "yang_score": 53,
+   "quadrant": "pushing_it",
+   "hr_mean": 85.8,
+   "hrv_mean": 45.5,
+   "steps": 7644.0,
+   "counts": {
+    "n_hr": 186,
+    "n_hrv": 6,
+    "n_steps": 36
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 41,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 90,
+      "n_hrv": 2,
+      "n_steps": 10
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 48,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 96,
+      "n_hrv": 4,
+      "n_steps": 26
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-29",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-05-30",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 26,
+    "OVERDRIVE": 20,
+    "STAGNATION": 1,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 44,
+   "yang_score": 40,
+   "quadrant": "running_on_empty",
+   "hr_mean": 84.7,
+   "hrv_mean": 40.1,
+   "steps": 2947.0,
+   "counts": {
+    "n_hr": 69,
+    "n_hrv": 3,
+    "n_steps": 36
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 63,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 52,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 2,
+      "n_hrv": 0,
+      "n_steps": 3
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 44,
+     "yang": 39,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 67,
+      "n_hrv": 3,
+      "n_steps": 33
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-05-31",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-01",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 16,
+    "OVERDRIVE": 16,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 16,
+    "OVERDRIVE": 16,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 16,
+    "fire": 16,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 52,
+   "yang_score": 51,
+   "quadrant": "in_flow",
+   "hr_mean": 76.3,
+   "hrv_mean": 60.4,
+   "steps": 6531.0,
+   "counts": {
+    "n_hr": 175,
+    "n_hrv": 9,
+    "n_steps": 72
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 63,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 65,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 30,
+      "n_hrv": 1,
+      "n_steps": 5
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 19,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 49,
+     "yang": 50,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 145,
+      "n_hrv": 8,
+      "n_steps": 67
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-02",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 26,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 26,
+    "OVERDRIVE": 19,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 26,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 46,
+   "yang_score": 60,
+   "quadrant": "pushing_it",
+   "hr_mean": 77.8,
+   "hrv_mean": 41.5,
+   "steps": 9825.0,
+   "counts": {
+    "n_hr": 331,
+    "n_hrv": 5,
+    "n_steps": 83
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 102,
+      "n_hrv": 3,
+      "n_steps": 15
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 22,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 47,
+     "yang": 57,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 229,
+      "n_hrv": 2,
+      "n_steps": 68
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-03",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 22,
+    "OVERDRIVE": 22,
+    "STAGNATION": 9,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 57,
+   "yang_score": 38,
+   "quadrant": "recharging",
+   "hr_mean": 78.2,
+   "hrv_mean": 76.8,
+   "steps": 1897.0,
+   "counts": {
+    "n_hr": 67,
+    "n_hrv": 2,
+    "n_steps": 20
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 57,
+     "yang": 38,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 67,
+      "n_hrv": 2,
+      "n_steps": 20
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-04",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-05",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-06",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 32,
+    "OVERDRIVE": 36,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 45,
+   "yang_score": 40,
+   "quadrant": "running_on_empty",
+   "hr_mean": 89.0,
+   "hrv_mean": 45.2,
+   "steps": 3165.0,
+   "counts": {
+    "n_hr": 70,
+    "n_hrv": 2,
+    "n_steps": 25
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 60,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 45,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 17,
+      "n_hrv": 0,
+      "n_steps": 5
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 46,
+     "yang": 39,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 53,
+      "n_hrv": 2,
+      "n_steps": 20
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-07",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-08",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 17,
+    "OVERDRIVE": 21,
+    "STAGNATION": 16,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 49,
+   "yang_score": 37,
+   "quadrant": "running_on_empty",
+   "hr_mean": 85.5,
+   "hrv_mean": null,
+   "steps": 1892.0,
+   "counts": {
+    "n_hr": 77,
+    "n_hrv": 0,
+    "n_steps": 4
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 49,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 77,
+      "n_hrv": 0,
+      "n_steps": 4
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-09",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 41,
+    "OVERDRIVE": 47,
+    "STAGNATION": 4,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 38,
+   "yang_score": 43,
+   "quadrant": "running_on_empty",
+   "hr_mean": 101.4,
+   "hrv_mean": 32.1,
+   "steps": 4473.0,
+   "counts": {
+    "n_hr": 144,
+    "n_hrv": 2,
+    "n_steps": 15
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 38,
+     "yang": 43,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 144,
+      "n_hrv": 2,
+      "n_steps": 15
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-10",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-11",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 20,
+    "OVERDRIVE": 20,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 50,
+   "yang_score": 46,
+   "quadrant": "recharging",
+   "hr_mean": 83.6,
+   "hrv_mean": 58.8,
+   "steps": 5525.0,
+   "counts": {
+    "n_hr": 68,
+    "n_hrv": 3,
+    "n_steps": 39
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 46,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 68,
+      "n_hrv": 3,
+      "n_steps": 39
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-12",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 14,
+    "OVERDRIVE": 14,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 14,
+    "OVERDRIVE": 14,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 14,
+    "fire": 14,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 52,
+   "yang_score": 53,
+   "quadrant": "in_flow",
+   "hr_mean": 72.3,
+   "hrv_mean": 55.9,
+   "steps": 7365.0,
+   "counts": {
+    "n_hr": 123,
+    "n_hrv": 4,
+    "n_steps": 47
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 37,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 24,
+      "n_hrv": 2,
+      "n_steps": 8
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 53,
+     "yang": 48,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 99,
+      "n_hrv": 2,
+      "n_steps": 39
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-13",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 54,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 48,
+    "OVERDRIVE": 54,
+    "STAGNATION": 5,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 54,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "OVERDRIVE",
+    "DEPLETION"
+   ],
+   "yin_score": 35,
+   "yang_score": 38,
+   "quadrant": "running_on_empty",
+   "hr_mean": 117.1,
+   "hrv_mean": 16.6,
+   "steps": 2004.0,
+   "counts": {
+    "n_hr": 33,
+    "n_hrv": 1,
+    "n_steps": 14
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 54,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 35,
+     "yang": 38,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 33,
+      "n_hrv": 1,
+      "n_steps": 14
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-14",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 30,
+    "OVERDRIVE": 34,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 46,
+   "yang_score": 43,
+   "quadrant": "running_on_empty",
+   "hr_mean": 89.4,
+   "hrv_mean": 47.6,
+   "steps": 4441.0,
+   "counts": {
+    "n_hr": 70,
+    "n_hrv": 4,
+    "n_steps": 25
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 61,
+      "fire": 64,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 35,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 19,
+      "n_hrv": 2,
+      "n_steps": 4
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 58,
+     "yang": 41,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 51,
+      "n_hrv": 2,
+      "n_steps": 21
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-15",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 34,
+    "OVERDRIVE": 33,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 45,
+   "yang_score": 48,
+   "quadrant": "running_on_empty",
+   "hr_mean": 88.0,
+   "hrv_mean": 41.5,
+   "steps": 5666.0,
+   "counts": {
+    "n_hr": 169,
+    "n_hrv": 6,
+    "n_steps": 35
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 58,
+      "fire": 51,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 38,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 57,
+      "n_hrv": 2,
+      "n_steps": 11
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 44,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 112,
+      "n_hrv": 4,
+      "n_steps": 24
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-16",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 21,
+    "OVERDRIVE": 17,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 46,
+   "yang_score": 48,
+   "quadrant": "running_on_empty",
+   "hr_mean": 84.8,
+   "hrv_mean": 43.9,
+   "steps": 6012.0,
+   "counts": {
+    "n_hr": 192,
+    "n_hrv": 5,
+    "n_steps": 28
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 41,
+     "yang": 38,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 80,
+      "n_hrv": 2,
+      "n_steps": 12
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 50,
+     "yang": 42,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 112,
+      "n_hrv": 3,
+      "n_steps": 16
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-17",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 21,
+    "OVERDRIVE": 24,
+    "STAGNATION": 7,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 54,
+   "yang_score": 40,
+   "quadrant": "recharging",
+   "hr_mean": 85.7,
+   "hrv_mean": 72.4,
+   "steps": 3165.0,
+   "counts": {
+    "n_hr": 130,
+    "n_hrv": 2,
+    "n_steps": 15
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 52,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 6,
+      "n_hrv": 0,
+      "n_steps": 4
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 54,
+     "yang": 38,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 124,
+      "n_hrv": 2,
+      "n_steps": 11
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-18",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 39,
+    "OVERDRIVE": 35,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 42,
+   "yang_score": 42,
+   "quadrant": "running_on_empty",
+   "hr_mean": 88.5,
+   "hrv_mean": 32.7,
+   "steps": 3811.0,
+   "counts": {
+    "n_hr": 83,
+    "n_hrv": 4,
+    "n_steps": 27
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 41,
+     "yang": 40,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 67,
+      "n_hrv": 4,
+      "n_steps": 18
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 53,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 16,
+      "n_hrv": 0,
+      "n_steps": 9
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-19",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-20",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-21",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-22",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 22,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 22,
+    "OVERDRIVE": 41,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 22,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 48,
+   "yang_score": 60,
+   "quadrant": "pushing_it",
+   "hr_mean": 97.8,
+   "hrv_mean": 59.0,
+   "steps": 10154.0,
+   "counts": {
+    "n_hr": 465,
+    "n_hrv": 6,
+    "n_steps": 43
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 57,
+     "yang": 36,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 29,
+      "n_hrv": 2,
+      "n_steps": 7
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "OVERDRIVE",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 22,
+      "fire": 75,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 46,
+     "yang": 58,
+     "quadrant": "pushing_it",
+     "counts": {
+      "n_hr": 436,
+      "n_hrv": 4,
+      "n_steps": 36
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-23",
+   "dominant_pattern": "OVERDRIVE",
+   "dominant_element": "fire",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 21,
+    "OVERDRIVE": 75,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 21,
+    "OVERDRIVE": 29,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 21,
+    "fire": 75,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [
+    "OVERDRIVE"
+   ],
+   "yin_score": 48,
+   "yang_score": 60,
+   "quadrant": "pushing_it",
+   "hr_mean": 90.6,
+   "hrv_mean": 54.6,
+   "steps": 10646.0,
+   "counts": {
+    "n_hr": 110,
+    "n_hrv": 4,
+    "n_steps": 53
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 54,
+     "yang": 44,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 56,
+      "n_hrv": 2,
+      "n_steps": 22
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 43,
+     "yang": 48,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 54,
+      "n_hrv": 2,
+      "n_steps": 31
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-24",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 19,
+    "OVERDRIVE": 19,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 19,
+    "OVERDRIVE": 19,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 19,
+    "fire": 19,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 51,
+   "yang_score": 60,
+   "quadrant": "in_flow",
+   "hr_mean": 79.0,
+   "hrv_mean": 55.6,
+   "steps": 10211.0,
+   "counts": {
+    "n_hr": 159,
+    "n_hrv": 7,
+    "n_steps": 66
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 52,
+     "yang": 39,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 47,
+      "n_hrv": 4,
+      "n_steps": 22
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "TENSION",
+     "any_active": false,
+     "balanced_flag": true,
+     "scores": {
+      "wood": 21,
+      "fire": 21,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 51,
+     "yang": 53,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 112,
+      "n_hrv": 3,
+      "n_steps": 44
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-25",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-26",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 17,
+    "OVERDRIVE": 17,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 17,
+    "OVERDRIVE": 17,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 17,
+    "fire": 17,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 51,
+   "yang_score": 62,
+   "quadrant": "in_flow",
+   "hr_mean": 81.6,
+   "hrv_mean": 58.0,
+   "steps": 11650.0,
+   "counts": {
+    "n_hr": 146,
+    "n_hrv": 4,
+    "n_steps": 50
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 66,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 51,
+     "yang": 35,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 5,
+      "n_hrv": 0,
+      "n_steps": 4
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "TENSION",
+     "any_active": false,
+     "balanced_flag": true,
+     "scores": {
+      "wood": 17,
+      "fire": 17,
+      "earth": 0,
+      "metal": 0,
+      "water": 0
+     },
+     "yin": 51,
+     "yang": 62,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 141,
+      "n_hrv": 4,
+      "n_steps": 46
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-27",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 14,
+    "OVERDRIVE": 14,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 55,
+   "yang_score": 49,
+   "quadrant": "recharging",
+   "hr_mean": 79.1,
+   "hrv_mean": 67.8,
+   "steps": 6362.0,
+   "counts": {
+    "n_hr": 237,
+    "n_hrv": 3,
+    "n_steps": 39
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 45,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 158,
+      "n_hrv": 1,
+      "n_steps": 8
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 61,
+     "yang": 47,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 79,
+      "n_hrv": 2,
+      "n_steps": 31
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-28",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 25,
+    "OVERDRIVE": 19,
+    "STAGNATION": 16,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 48,
+   "yang_score": 37,
+   "quadrant": "running_on_empty",
+   "hr_mean": 77.9,
+   "hrv_mean": 43.3,
+   "steps": 1676.0,
+   "counts": {
+    "n_hr": 55,
+    "n_hrv": 1,
+    "n_steps": 19
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 55,
+      "n_hrv": 1,
+      "n_steps": 19
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-06-29",
+   "dominant_pattern": null,
+   "dominant_element": null,
+   "any_active": null,
+   "balanced_flag": null,
+   "pattern_scores": null,
+   "pattern_scores_raw_pre_gate": null,
+   "dominant_pattern_raw_pre_gate": null,
+   "element_scores": null,
+   "active_patterns": [],
+   "yin_score": null,
+   "yang_score": null,
+   "quadrant": null,
+   "hr_mean": null,
+   "hrv_mean": null,
+   "steps": null,
+   "counts": {
+    "n_hr": 0,
+    "n_hrv": 0,
+    "n_steps": 0
+   },
+   "source_quality": "no_data",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  },
+  {
+   "date": "2026-06-30",
+   "dominant_pattern": "TENSION",
+   "dominant_element": "wood",
+   "any_active": false,
+   "balanced_flag": true,
+   "pattern_scores": {
+    "TENSION": 13,
+    "OVERDRIVE": 13,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 13,
+    "OVERDRIVE": 13,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 13,
+    "fire": 13,
+    "earth": 0,
+    "metal": 0,
+    "water": 0
+   },
+   "active_patterns": [],
+   "yin_score": 51,
+   "yang_score": 52,
+   "quadrant": "in_flow",
+   "hr_mean": 82.0,
+   "hrv_mean": 58.0,
+   "steps": 7024.0,
+   "counts": {
+    "n_hr": 81,
+    "n_hrv": 2,
+    "n_steps": 32
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 54,
+     "yang": 40,
+     "quadrant": "recharging",
+     "counts": {
+      "n_hr": 31,
+      "n_hrv": 1,
+      "n_steps": 9
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 48,
+     "yang": 42,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 50,
+      "n_hrv": 1,
+      "n_steps": 23
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-07-01",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 31,
+    "OVERDRIVE": 26,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "TENSION",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 47,
+   "yang_score": 47,
+   "quadrant": "running_on_empty",
+   "hr_mean": 83.9,
+   "hrv_mean": 44.7,
+   "steps": 5397.0,
+   "counts": {
+    "n_hr": 180,
+    "n_hrv": 6,
+    "n_steps": 40
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 53,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 45,
+     "yang": 36,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 26,
+      "n_hrv": 2,
+      "n_steps": 6
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 47,
+     "yang": 46,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 154,
+      "n_hrv": 4,
+      "n_steps": 34
+     },
+     "source_quality": "real_inference"
+    }
+   }
+  },
+  {
+   "date": "2026-07-02",
+   "dominant_pattern": "DEPLETION",
+   "dominant_element": "water",
+   "any_active": true,
+   "balanced_flag": false,
+   "pattern_scores": {
+    "TENSION": 0,
+    "OVERDRIVE": 0,
+    "STAGNATION": 0,
+    "CONSTRICTION": 0,
+    "DEPLETION": 75
+   },
+   "pattern_scores_raw_pre_gate": {
+    "TENSION": 28,
+    "OVERDRIVE": 46,
+    "STAGNATION": 15,
+    "CONSTRICTION": 0,
+    "DEPLETION": 0
+   },
+   "dominant_pattern_raw_pre_gate": "OVERDRIVE",
+   "element_scores": {
+    "wood": 0,
+    "fire": 0,
+    "earth": 0,
+    "metal": 0,
+    "water": 75
+   },
+   "active_patterns": [
+    "DEPLETION"
+   ],
+   "yin_score": 45,
+   "yang_score": 37,
+   "quadrant": "running_on_empty",
+   "hr_mean": 98.4,
+   "hrv_mean": 49.1,
+   "steps": 1256.0,
+   "counts": {
+    "n_hr": 41,
+    "n_hrv": 2,
+    "n_steps": 10
+   },
+   "source_quality": "real_inference",
+   "halfdays": {
+    "AM": {
+     "dominant_pattern": "DEPLETION",
+     "any_active": true,
+     "balanced_flag": false,
+     "scores": {
+      "wood": 0,
+      "fire": 0,
+      "earth": 0,
+      "metal": 0,
+      "water": 75
+     },
+     "yin": 45,
+     "yang": 37,
+     "quadrant": "running_on_empty",
+     "counts": {
+      "n_hr": 41,
+      "n_hrv": 2,
+      "n_steps": 10
+     },
+     "source_quality": "real_inference"
+    },
+    "PM": {
+     "dominant_pattern": null,
+     "any_active": null,
+     "balanced_flag": null,
+     "scores": null,
+     "yin": 50,
+     "yang": 50,
+     "quadrant": "in_flow",
+     "counts": {
+      "n_hr": 0,
+      "n_hrv": 0,
+      "n_steps": 0
+     },
+     "source_quality": "no_data"
+    }
+   }
+  }
+ ]
+}

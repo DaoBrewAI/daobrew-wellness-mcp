@@ -1,0 +1,241 @@
+{
+ "generated_at": "2026-07-02T18:42:41.725561+00:00",
+ "identities": {
+  "apikey": "apikey:dbk_n6exu553",
+  "deviceA": "4A008E08-4076-4BA6-B930-3C41B6E50153",
+  "deviceB": "51A5B98C-7034-4B24-B2A5-C8621E32CBC9"
+ },
+ "union_last_biometric_utc": "2026-06-23T01:39:07Z",
+ "per_identity": {
+  "apikey": {
+   "user_id": "apikey:dbk_n6exu553",
+   "healthkit": {
+    "heart_rate": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "heart_rate_variability": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "step_count": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    }
+   },
+   "state_history": {
+    "n": 0
+   },
+   "session_logs_n": 0
+  },
+  "deviceA": {
+   "user_id": "4A008E08-4076-4BA6-B930-3C41B6E50153",
+   "healthkit": {
+    "heart_rate": {
+     "n": 5642,
+     "first": "2026-03-18T19:24:13+00:00",
+     "last": "2026-06-23T01:39:07+00:00",
+     "by_month": {
+      "2026-03": 1238,
+      "2026-04": 2541,
+      "2026-05": 1680,
+      "2026-06": 183
+     }
+    },
+    "heart_rate_variability": {
+     "n": 77,
+     "first": "2026-03-18T20:21:05+00:00",
+     "last": "2026-06-23T00:35:52+00:00",
+     "by_month": {
+      "2026-03": 19,
+      "2026-04": 28,
+      "2026-05": 28,
+      "2026-06": 2
+     }
+    },
+    "resting_heart_rate": {
+     "n": 36,
+     "first": "2026-03-18T19:05:09+00:00",
+     "last": "2026-06-22T17:07:54+00:00",
+     "by_month": {
+      "2026-03": 9,
+      "2026-04": 13,
+      "2026-05": 13,
+      "2026-06": 1
+     }
+    },
+    "respiratory_rate": {
+     "n": 3,
+     "first": "2026-04-29T01:09:42+00:00",
+     "last": "2026-05-19T00:10:52+00:00",
+     "by_month": {
+      "2026-04": 1,
+      "2026-05": 2
+     }
+    },
+    "step_count": {
+     "n": 1374,
+     "first": "2026-03-18T19:27:03+00:00",
+     "last": "2026-06-23T01:27:14+00:00",
+     "by_month": {
+      "2026-03": 157,
+      "2026-04": 349,
+      "2026-05": 859,
+      "2026-06": 9
+     }
+    },
+    "active_energy_burned": {
+     "n": 9774,
+     "first": "2026-03-18T19:11:52+00:00",
+     "last": "2026-06-23T01:38:55+00:00",
+     "by_month": {
+      "2026-03": 1988,
+      "2026-04": 4533,
+      "2026-05": 2830,
+      "2026-06": 423
+     }
+    }
+   },
+   "state_history": {
+    "n": 266,
+    "first": "2026-03-18T20:00:00+00:00",
+    "last": "2026-07-02T16:00:00+00:00",
+    "by_month": {
+     "2026-03": 35,
+     "2026-04": 71,
+     "2026-05": 83,
+     "2026-06": 72,
+     "2026-07": 5
+    },
+    "source_quality": {
+     "data_verified": 223,
+     "fallback": 43
+    },
+    "n_after_union_last_biometric": 9,
+    "flag": "MOCK-CONTAMINATED post 2026-06-23: data_verified label with no biometric substrate"
+   },
+   "session_logs_n": 19
+  },
+  "deviceB": {
+   "user_id": "51A5B98C-7034-4B24-B2A5-C8621E32CBC9",
+   "healthkit": {
+    "heart_rate": {
+     "n": 200,
+     "first": "2026-04-10T21:15:01+00:00",
+     "last": "2026-04-12T22:54:09+00:00",
+     "by_month": {
+      "2026-04": 200
+     }
+    },
+    "heart_rate_variability": {
+     "n": 11,
+     "first": "2026-04-10T20:50:39+00:00",
+     "last": "2026-04-12T22:26:57+00:00",
+     "by_month": {
+      "2026-04": 11
+     }
+    },
+    "resting_heart_rate": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "respiratory_rate": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    },
+    "step_count": {
+     "n": 141,
+     "first": "2026-04-10T19:21:15+00:00",
+     "last": "2026-04-12T22:37:34+00:00",
+     "by_month": {
+      "2026-04": 141
+     }
+    },
+    "active_energy_burned": {
+     "n": 0,
+     "first": null,
+     "last": null,
+     "by_month": {}
+    }
+   },
+   "state_history": {
+    "n": 166,
+    "first": "2026-04-11T16:00:00+00:00",
+    "last": "2026-07-02T12:00:00+00:00",
+    "by_month": {
+     "2026-04": 40,
+     "2026-05": 62,
+     "2026-06": 60,
+     "2026-07": 4
+    },
+    "source_quality": {
+     "fallback": 3,
+     "data_verified": 163
+    },
+    "n_after_union_last_biometric": 12,
+    "flag": "MOCK-CONTAMINATED post 2026-06-23: data_verified label with no biometric substrate"
+   },
+   "session_logs_n": 0
+  }
+ },
+ "union_deviceA_plus_deviceB": {
+  "heart_rate": {
+   "n": 5842,
+   "first": "2026-03-18T19:24:13+00:00",
+   "last": "2026-06-23T01:39:07+00:00"
+  },
+  "heart_rate_variability": {
+   "n": 88,
+   "first": "2026-03-18T20:21:05+00:00",
+   "last": "2026-06-23T00:35:52+00:00"
+  },
+  "resting_heart_rate": {
+   "n": 36,
+   "first": "2026-03-18T19:05:09+00:00",
+   "last": "2026-06-22T17:07:54+00:00"
+  },
+  "respiratory_rate": {
+   "n": 3,
+   "first": "2026-04-29T01:09:42+00:00",
+   "last": "2026-05-19T00:10:52+00:00"
+  },
+  "step_count": {
+   "n": 1515,
+   "first": "2026-03-18T19:27:03+00:00",
+   "last": "2026-06-23T01:27:14+00:00"
+  },
+  "active_energy_burned": {
+   "n": 9774,
+   "first": "2026-03-18T19:11:52+00:00",
+   "last": "2026-06-23T01:38:55+00:00"
+  }
+ }
+}

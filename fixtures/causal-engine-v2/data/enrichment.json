@@ -1,0 +1,1411 @@
+{
+ "generated_at": "2026-07-02T00:14:11.132102",
+ "note": "PatternJoin stage. Denominator = 26 worn (real_inference) days, all 2026-03-18..05-19 + lone 06-22.",
+ "theme_taxonomy": {
+  "demo_readiness": [
+   "demo",
+   "walkthrough",
+   "pitch",
+   "deck",
+   "demo story",
+   "demo prep",
+   "dashboard",
+   "control surface",
+   "landing page",
+   "onboarding"
+  ],
+  "investor_fundraising": [
+   "investor",
+   "seed",
+   "raise",
+   "fundrais",
+   "incubator",
+   "term sheet",
+   " cap",
+   "angel",
+   "ai2",
+   "valuation",
+   "3m ",
+   "600k",
+   "warm intro"
+  ],
+  "causal_rootcause": [
+   "causal",
+   "root cause",
+   "detonat",
+   "structural causal",
+   "counterfactual",
+   "reasoning chain",
+   "attribution",
+   "causal discovery",
+   "causal inference",
+   "stress graph"
+  ],
+  "memory_architecture": [
+   "memory",
+   "schema",
+   "vector",
+   "embedding",
+   "context management",
+   "analogical graph",
+   "memory bank",
+   "memory layer",
+   "project memory"
+  ],
+  "pricing_monetization": [
+   "pricing",
+   "tier",
+   "paywall",
+   "subscription",
+   "budget",
+   "license",
+   "ltv",
+   "cac",
+   "monetiz",
+   "lifetime",
+   "free trial",
+   "revenue"
+  ],
+  "b2b_b2c_positioning": [
+   "b2b",
+   "b2c",
+   "wearable",
+   "oura",
+   "whoop",
+   "white-label",
+   "brand",
+   "partner",
+   "precoin",
+   "pre coin",
+   "flywheel",
+   "positioning"
+  ],
+  "gtm_outreach": [
+   "go-to-market",
+   "go to market",
+   "gtm",
+   "outreach",
+   "linkedin",
+   "reddit",
+   "marketing",
+   "user acquisition",
+   "validation",
+   "mom test"
+  ],
+  "product_intervention": [
+   "breathing",
+   "breathwork",
+   "intervention",
+   "proactive",
+   "nudge",
+   "resonance"
+  ]
+ },
+ "overlap_diagnostic": {
+  "worn_days": [
+   "2026-03-18",
+   "2026-03-19",
+   "2026-03-20",
+   "2026-03-22",
+   "2026-03-23",
+   "2026-03-25",
+   "2026-03-28",
+   "2026-03-30",
+   "2026-04-08",
+   "2026-04-11",
+   "2026-04-14",
+   "2026-04-16",
+   "2026-04-18",
+   "2026-04-19",
+   "2026-04-20",
+   "2026-04-21",
+   "2026-04-26",
+   "2026-04-28",
+   "2026-04-29",
+   "2026-04-30",
+   "2026-05-04",
+   "2026-05-09",
+   "2026-05-10",
+   "2026-05-18",
+   "2026-05-19",
+   "2026-06-22"
+  ],
+  "n_worn": 26,
+  "worn_window": [
+   "2026-03-18",
+   "2026-06-22"
+  ],
+  "meeting_corpus_window": [
+   "2026-05-24",
+   "2026-06-30"
+  ],
+  "memory_corpus_window": [
+   "2026-04-23",
+   "2026-07-01"
+  ],
+  "calendar_window": [
+   "2026-03-18",
+   "2026-07-01"
+  ],
+  "worn_days_with_meeting_sameday": [],
+  "worn_days_with_memory_sameday": [
+   "2026-04-26",
+   "2026-04-29",
+   "2026-04-30",
+   "2026-06-22"
+  ],
+  "worn_days_with_calendar_sameday": [
+   "2026-03-18",
+   "2026-03-19",
+   "2026-03-20",
+   "2026-03-22",
+   "2026-03-30",
+   "2026-04-16",
+   "2026-04-18",
+   "2026-04-26",
+   "2026-04-28",
+   "2026-04-30",
+   "2026-05-04",
+   "2026-05-10",
+   "2026-05-18",
+   "2026-05-19",
+   "2026-06-22"
+  ],
+  "worn_days_touching_meeting_same_day_pm12h": 0,
+  "worn_days_touching_memory_same_day_pm12h": 4,
+  "worn_days_touching_calendar_same_day_pm12h": 15,
+  "worn_days_touching_meeting_pm2d": 1,
+  "worn_days_touching_memory_pm2d": 5,
+  "worn_days_touching_calendar_pm2d": 25
+ },
+ "pattern_group_sizes": {
+  "raw_pre_gate": {
+   "CONSTRICTION": 1,
+   "OVERDRIVE": 9,
+   "STAGNATION": 3,
+   "TENSION": 13
+  },
+  "gated_app_shown": {
+   "DEPLETION": 19,
+   "OVERDRIVE": 7
+  },
+  "balanced_flag_days": [
+   "2026-03-28"
+  ]
+ },
+ "enrichment_raw_axis_calendar": {
+  "reference_class": "recharging_quadrant_worn",
+  "reference_n": 9,
+  "reference_rates": {
+   "demo_readiness": 0.0,
+   "investor_fundraising": 0.0,
+   "causal_rootcause": 0.0,
+   "memory_architecture": 0.0,
+   "pricing_monetization": 0.0,
+   "b2b_b2c_positioning": 0.0,
+   "gtm_outreach": 0.0,
+   "product_intervention": 0.0
+  },
+  "by_pattern": {
+   "CONSTRICTION": {
+    "n": 1,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "OVERDRIVE": {
+    "n": 9,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "STAGNATION": {
+    "n": 3,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "TENSION": {
+    "n": 13,
+    "themes": {
+     "demo_readiness": {
+      "hits": 1,
+      "n": 13,
+      "rate": 0.077,
+      "days": [
+       "2026-05-19"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "investor_fundraising": {
+      "hits": 1,
+      "n": 13,
+      "rate": 0.077,
+      "days": [
+       "2026-05-10"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 1,
+      "n": 13,
+      "rate": 0.077,
+      "days": [
+       "2026-05-19"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   }
+  }
+ },
+ "enrichment_gated_axis_calendar": {
+  "reference_class": "recharging_quadrant_worn",
+  "reference_n": 9,
+  "reference_rates": {
+   "demo_readiness": 0.0,
+   "investor_fundraising": 0.0,
+   "causal_rootcause": 0.0,
+   "memory_architecture": 0.0,
+   "pricing_monetization": 0.0,
+   "b2b_b2c_positioning": 0.0,
+   "gtm_outreach": 0.0,
+   "product_intervention": 0.0
+  },
+  "by_pattern": {
+   "DEPLETION": {
+    "n": 19,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "OVERDRIVE": {
+    "n": 7,
+    "themes": {
+     "demo_readiness": {
+      "hits": 1,
+      "n": 7,
+      "rate": 0.143,
+      "days": [
+       "2026-05-19"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "investor_fundraising": {
+      "hits": 1,
+      "n": 7,
+      "rate": 0.143,
+      "days": [
+       "2026-05-10"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 1,
+      "n": 7,
+      "rate": 0.143,
+      "days": [
+       "2026-05-19"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   }
+  }
+ },
+ "enrichment_raw_axis_memory": {
+  "reference_class": "recharging_quadrant_worn",
+  "reference_n": 9,
+  "reference_rates": {
+   "demo_readiness": 0.111,
+   "investor_fundraising": 0.0,
+   "causal_rootcause": 0.0,
+   "memory_architecture": 0.0,
+   "pricing_monetization": 0.0,
+   "b2b_b2c_positioning": 0.0,
+   "gtm_outreach": 0.0,
+   "product_intervention": 0.0
+  },
+  "by_pattern": {
+   "CONSTRICTION": {
+    "n": 1,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "OVERDRIVE": {
+    "n": 9,
+    "themes": {
+     "demo_readiness": {
+      "hits": 2,
+      "n": 9,
+      "rate": 0.222,
+      "days": [
+       "2026-04-30",
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": 2.0
+     },
+     "investor_fundraising": {
+      "hits": 2,
+      "n": 9,
+      "rate": 0.222,
+      "days": [
+       "2026-04-30",
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "causal_rootcause": {
+      "hits": 1,
+      "n": 9,
+      "rate": 0.111,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "memory_architecture": {
+      "hits": 1,
+      "n": 9,
+      "rate": 0.111,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "pricing_monetization": {
+      "hits": 1,
+      "n": 9,
+      "rate": 0.111,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 1,
+      "n": 9,
+      "rate": 0.111,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 9,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "STAGNATION": {
+    "n": 3,
+    "themes": {
+     "demo_readiness": {
+      "hits": 1,
+      "n": 3,
+      "rate": 0.333,
+      "days": [
+       "2026-04-29"
+      ],
+      "enrich_vs_ref": 3.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 3,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "TENSION": {
+    "n": 13,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 13,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   }
+  }
+ },
+ "enrichment_gated_axis_memory": {
+  "reference_class": "recharging_quadrant_worn",
+  "reference_n": 9,
+  "reference_rates": {
+   "demo_readiness": 0.111,
+   "investor_fundraising": 0.0,
+   "causal_rootcause": 0.0,
+   "memory_architecture": 0.0,
+   "pricing_monetization": 0.0,
+   "b2b_b2c_positioning": 0.0,
+   "gtm_outreach": 0.0,
+   "product_intervention": 0.0
+  },
+  "by_pattern": {
+   "DEPLETION": {
+    "n": 19,
+    "themes": {
+     "demo_readiness": {
+      "hits": 3,
+      "n": 19,
+      "rate": 0.158,
+      "days": [
+       "2026-04-29",
+       "2026-04-30",
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": 1.42
+     },
+     "investor_fundraising": {
+      "hits": 2,
+      "n": 19,
+      "rate": 0.105,
+      "days": [
+       "2026-04-30",
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "causal_rootcause": {
+      "hits": 1,
+      "n": 19,
+      "rate": 0.053,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "memory_architecture": {
+      "hits": 1,
+      "n": 19,
+      "rate": 0.053,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "pricing_monetization": {
+      "hits": 1,
+      "n": 19,
+      "rate": 0.053,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 1,
+      "n": 19,
+      "rate": 0.053,
+      "days": [
+       "2026-06-22"
+      ],
+      "enrich_vs_ref": Infinity
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 19,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   },
+   "OVERDRIVE": {
+    "n": 7,
+    "themes": {
+     "demo_readiness": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "investor_fundraising": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "causal_rootcause": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "memory_architecture": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "pricing_monetization": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "b2b_b2c_positioning": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "gtm_outreach": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     },
+     "product_intervention": {
+      "hits": 0,
+      "n": 7,
+      "rate": 0.0,
+      "days": [],
+      "enrich_vs_ref": 0.0
+     }
+    }
+   }
+  }
+ },
+ "pairwise": {
+  "raw_TENSION_vs_OVERDRIVE_calendar": {
+   "demo_readiness": {
+    "tension_rate": 0.077,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "tension_days": [
+     "2026-05-19"
+    ],
+    "overdrive_days": []
+   },
+   "investor_fundraising": {
+    "tension_rate": 0.077,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "tension_days": [
+     "2026-05-10"
+    ],
+    "overdrive_days": []
+   },
+   "causal_rootcause": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   },
+   "memory_architecture": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   },
+   "pricing_monetization": {
+    "tension_rate": 0.077,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "tension_days": [
+     "2026-05-19"
+    ],
+    "overdrive_days": []
+   },
+   "b2b_b2c_positioning": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   },
+   "gtm_outreach": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   },
+   "product_intervention": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   }
+  },
+  "gated_DEPLETION_vs_OVERDRIVE_calendar": {
+   "demo_readiness": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.143,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": [
+     "2026-05-19"
+    ]
+   },
+   "investor_fundraising": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.143,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": [
+     "2026-05-10"
+    ]
+   },
+   "causal_rootcause": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   },
+   "memory_architecture": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   },
+   "pricing_monetization": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.143,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": [
+     "2026-05-19"
+    ]
+   },
+   "b2b_b2c_positioning": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   },
+   "gtm_outreach": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   },
+   "product_intervention": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   }
+  },
+  "raw_TENSION_vs_OVERDRIVE_memory": {
+   "demo_readiness": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.222,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": [
+     "2026-04-30",
+     "2026-06-22"
+    ]
+   },
+   "investor_fundraising": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.222,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": [
+     "2026-04-30",
+     "2026-06-22"
+    ]
+   },
+   "causal_rootcause": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.111,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": [
+     "2026-06-22"
+    ]
+   },
+   "memory_architecture": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.111,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": [
+     "2026-06-22"
+    ]
+   },
+   "pricing_monetization": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.111,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": [
+     "2026-06-22"
+    ]
+   },
+   "b2b_b2c_positioning": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   },
+   "gtm_outreach": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.111,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": [
+     "2026-06-22"
+    ]
+   },
+   "product_intervention": {
+    "tension_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "tension_days": [],
+    "overdrive_days": []
+   }
+  },
+  "gated_DEPLETION_vs_OVERDRIVE_memory": {
+   "demo_readiness": {
+    "depletion_rate": 0.158,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "depletion_days": [
+     "2026-04-29",
+     "2026-04-30",
+     "2026-06-22"
+    ],
+    "overdrive_days": []
+   },
+   "investor_fundraising": {
+    "depletion_rate": 0.105,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "depletion_days": [
+     "2026-04-30",
+     "2026-06-22"
+    ],
+    "overdrive_days": []
+   },
+   "causal_rootcause": {
+    "depletion_rate": 0.053,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "depletion_days": [
+     "2026-06-22"
+    ],
+    "overdrive_days": []
+   },
+   "memory_architecture": {
+    "depletion_rate": 0.053,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "depletion_days": [
+     "2026-06-22"
+    ],
+    "overdrive_days": []
+   },
+   "pricing_monetization": {
+    "depletion_rate": 0.053,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "depletion_days": [
+     "2026-06-22"
+    ],
+    "overdrive_days": []
+   },
+   "b2b_b2c_positioning": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   },
+   "gtm_outreach": {
+    "depletion_rate": 0.053,
+    "overdrive_rate": 0.0,
+    "enrich": Infinity,
+    "depletion_days": [
+     "2026-06-22"
+    ],
+    "overdrive_days": []
+   },
+   "product_intervention": {
+    "depletion_rate": 0.0,
+    "overdrive_rate": 0.0,
+    "enrich": 0.0,
+    "depletion_days": [],
+    "overdrive_days": []
+   }
+  }
+ },
+ "hrv_leadlag": {
+  "n_hrv_total": 77,
+  "n_acute_dips": 21,
+  "window": "±6h",
+  "themed_items_within_6h_of_dip": {}
+ },
+ "candidate_revalidation": {
+  "pricing_gate": {
+   "citation_dates": [
+    "2026-06-10",
+    "2026-06-11",
+    "2026-06-26"
+   ],
+   "per_date": [
+    {
+     "date": "2026-06-10",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    },
+    {
+     "date": "2026-06-11",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    },
+    {
+     "date": "2026-06-26",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    }
+   ],
+   "pattern_layer_backed_dates": []
+  },
+  "demo_polish": {
+   "citation_dates": [
+    "2026-05-22",
+    "2026-06-11",
+    "2026-06-26"
+   ],
+   "per_date": [
+    {
+     "date": "2026-05-22",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    },
+    {
+     "date": "2026-06-11",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    },
+    {
+     "date": "2026-06-26",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    }
+   ],
+   "pattern_layer_backed_dates": []
+  },
+  "attribution_doubt": {
+   "citation_dates": [
+    "2026-06-24",
+    "2026-06-26"
+   ],
+   "per_date": [
+    {
+     "date": "2026-06-24",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    },
+    {
+     "date": "2026-06-26",
+     "source_quality": "no_data",
+     "has_pattern_biometrics": false,
+     "gated_pattern": null,
+     "raw_pattern": null
+    }
+   ],
+   "pattern_layer_backed_dates": []
+  }
+ },
+ "quadrant_layer_reference": {
+  "pricing_monetization": 2.89,
+  "b2b_b2c_positioning": 4.0,
+  "product_intervention": 3.11,
+  "demo_readiness": 1.71,
+  "memory_architecture": 1.6,
+  "note": "running_on_empty vs in_flow same-day enrichment, quadrant layer, n=271 buckets over 105 days"
+ }
+}

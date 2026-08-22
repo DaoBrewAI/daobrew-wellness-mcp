@@ -1,0 +1,1 @@
+export declare const REQUIRED_BACKEND_CONTRACT_VERSION = 1;
