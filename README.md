@@ -2,7 +2,7 @@
 
 **Your coding agent just learned to read your body.**
 
-Reads your biometrics (Apple Watch via DaoBrew Health Sync), detects stress patterns, plays therapeutic breathing music with binaural beats, and streams a live dashboard PNG into your chat — all without leaving your editor.
+An MCP server that brings your Apple Watch data (via DaoBrew Health Sync) into Claude Code, Cursor or Windsurf. It maps what it observes in your own data to five body-signal patterns, plays breath-paced music with binaural beats, and streams a live dashboard PNG into your chat — all without leaving your editor.
 
 No popups. No app switching. Just music that fades in when you need it. 🎧
 
@@ -23,13 +23,13 @@ Works with **Claude Code**, **Cursor**, **Windsurf**, and any MCP-compatible age
 ## 🧘 What It Does
 
 ```
-You're coding.   →   Agent detects stress.   →   Music fades in + dashboard appears.   →   You keep coding.
-                      (real biometric data)       (binaural + breath pacing,                 (stress goes down)
-                                                   live HR streamed to chat)
+You're coding.   →   Agent spots a pattern   →   Music fades in + dashboard appears.   →   You keep coding.
+                      in your own data.           (binaural + breath pacing,                 (no app switch)
+                      (your Apple Watch)           live HR streamed to chat)
 ```
 
-- 📊 **Detects stress** from real biometrics — HRV, heart rate, sleep, activity
-- 🌿 **Maps to 5 stress patterns** — Tension, Overdrive, Stagnation, Constriction, Depletion
+- 📊 **Reads your own biometrics** — HRV, heart rate, sleep, activity — as facts observed in your data
+- 🌿 **Maps them to 5 patterns** — Tension, Overdrive, Stagnation, Constriction, Depletion
 - 🎵 **Plays genre-matched music** with 4Hz theta binaural beats and breath-paced volume swells
 - 🖼  **Live dashboard PNG** auto-streamed every 2s — HR sparkline, breath bars, session progress
 - 🔇 **Zero interruption** — ambient mode works silently in the background
@@ -45,10 +45,12 @@ You're coding.   →   Agent detects stress.   →   Music fades in + dashboard 
 /stop       →   Music stops, summary PNG returned
 ```
 
-### Ambient — hands-free stress relief
+*The score and HR above are illustrative, not real user data.*
+
+### Ambient — hands-free breathing breaks
 Enable once: *"enable ambient mode"*
 
-From then on, your agent monitors stress at natural breakpoints. When it detects a spike + you have headphones in, therapeutic music fades in silently. You keep coding. Your HRV recovers.
+From then on, your agent checks your own data at natural breakpoints. When it sees one of the five patterns and you have headphones in, breath-paced music fades in quietly. You keep coding.
 
 Say *"disable wellness"* anytime to turn it off.
 
@@ -66,19 +68,19 @@ Say *"disable wellness"* anytime to turn it off.
 
 ## 🎵 The Five Sounds
 
-Each stress pattern gets its own sound, breathing rate, and vibe:
+Each pattern gets its own sound, breathing pace, and vibe:
 
-| Pattern | When You Feel... | Sound | What It Does |
-|---------|-----------------|-------|-------------|
-| 🌲 Tension | Tense, tight, clenching | Flowing ambient | Releases tension, restores flow |
-| 🔥 Overdrive | Wired, restless, can't focus | Warm lo-fi jazz | Cools the mind, settles racing thoughts |
-| ⛰️ Stagnation | Sluggish, foggy, unmotivated | Gentle acoustic | Grounds and centers, wakes you up gently |
-| ⚔️ Constriction | Shallow breathing, constricted | Nature soundscape | Opens the chest, deepens your breath |
-| 🌊 Depletion | Drained, depleted, running on empty | Deep ambient drone | Deep rest, replenishes your reserves |
+| Pattern | When You Feel... | Sound | Good For |
+|---------|-----------------|-------|----------|
+| 🌲 Tension | Tense, tight, clenching | Flowing ambient | Coming back to steady work after a hard push |
+| 🔥 Overdrive | Wired, restless, can't focus | Warm lo-fi jazz | Slowing down when you're switching tasks too fast |
+| ⛰️ Stagnation | Sluggish, foggy, unmotivated | Gentle acoustic | Getting moving on the next task |
+| ⚔️ Constriction | Shallow breathing, constricted | Nature soundscape | A breathing reset between tasks |
+| 🌊 Depletion | Drained, depleted, running on empty | Deep ambient drone | A slow wind-down at the end of a heavy day |
 
 Every track layers a **4Hz theta binaural beat** (requires headphones) plus **breath-paced volume modulation** — the music rises and falls to gently guide your breathing.
 
-> 💡 On your first session, the agent tells you: *"Breathe in as the music rises, out as it fades."* After that, your body remembers — no voice prompts, just music.
+> 💡 On your first session, the agent tells you: *"Breathe in as the music rises, out as it fades."* After that, no voice prompts — just music.
 
 ---
 
@@ -86,8 +88,8 @@ Every track layers a **4Hz theta binaural beat** (requires headphones) plus **br
 
 | Tool | What It Does |
 |------|-------------|
-| `daobrew_check` | Current stress pattern + live dashboard PNG (auto-poll every 2s during a session) |
-| `daobrew_breathe` | Start a session for a stress pattern (`tension` / `overdrive` / `stagnation` / `constriction` / `depletion`) |
+| `daobrew_check` | Current pattern from your own data + live dashboard PNG (auto-poll every 2s during a session) |
+| `daobrew_breathe` | Start a breathing session for a pattern (`tension` / `overdrive` / `stagnation` / `constriction` / `depletion`) |
 | `daobrew_stop` | Stop the current session, return final HRV delta + summary PNG |
 | `daobrew_history` | Recent sessions and trends |
 | `daobrew_status` | Server mode, headphones, preferences, active session |
@@ -99,10 +101,10 @@ Every track layers a **4Hz theta binaural beat** (requires headphones) plus **br
 
 ---
 
-## 💥 Detonator — from stress pattern to finished task
+## 💥 Detonator — from body signal to finished task
 
-Sentinel (the DaoBrew macOS app) attributes your recurring stress spikes to the
-**thing on your calendar you keep not finishing**. Detonating hands that thing to
+Sentinel (the DaoBrew macOS app) finds the work your body keeps reacting to:
+the **thing on your calendar you keep not finishing**. Detonating hands that thing to
 your own coding agent as a task package — DaoBrew is brain + scheduling + brief +
 routing; **your agent writes the artifact, never DaoBrew**.
 
@@ -123,7 +125,7 @@ Graph DB lives at `~/Library/Application Support/DaoBrew/sentinel-graph.db`
 
 - Agent only sees **wellness scores** — never raw health records
 - Health tokens stored locally at `~/.daobrew/`
-- Speaker blocklist prevents accidental playback without headphones
+- Speaker blocklist stops accidental playback without headphones
 - Ambient mode requires explicit opt-in
 
 ---
@@ -131,7 +133,7 @@ Graph DB lives at `~/Library/Application Support/DaoBrew/sentinel-graph.db`
 ## 🏗 Architecture
 
 ```
-  ⌚ Apple Watch ──→ iPhone Health Sync ──→ DaoBrew Cloud ──→ TCM Scoring Engine
+  ⌚ Apple Watch ──→ iPhone Health Sync ──→ DaoBrew Cloud ──→ Pattern Scoring Engine
                             │                       ↓
                             │              MCP Server (local)
                             │                       ↓
